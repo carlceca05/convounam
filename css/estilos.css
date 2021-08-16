@@ -78,7 +78,7 @@
     border-radius:3px;
     }
 .close:hover {
-    background: #3CA090;
+    background: #BD8D24;
     color:#222;
     }
 .testi{
@@ -115,6 +115,7 @@
     left: 45%;
     transform: scale(2) rotate(20deg);
 }
+
 .rotamovil{
     position: relative; 
     bottom: -50px;
@@ -316,7 +317,7 @@
         padding-bottom: 20px;
     }
     .bordesito{
-        border-right: #3ca090 2px solid;
+        border-right: #BD8D24 2px solid;
     }
     .pararotado{
         margin-top: 100px;
@@ -375,7 +376,7 @@
     .testi2{
         position: absolute;
         top:0;
-        left: 43%;
+        left: 0;
         padding: 0px 0px 0px 0px;
         opacity: 0.4;
     }
@@ -410,7 +411,7 @@
     transition:transform 2s ease, -webkit-transform 2s ease;
 }
 #carousel .carousel-item .caption{
-    background:rgba(60,160,144,0.85);
+    background:rgba(189,141,36,0.85);
 }
 
 #carousel .carousel-item .caption2{
@@ -432,4 +433,3 @@ div::-webkit-scrollbar{
 	.hola .product {
 	    min-width: 99%;
 	}
-
