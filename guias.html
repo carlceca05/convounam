@@ -10,11 +10,11 @@
     <meta name="keywords" content="UNAM, convocatoria UNAM, UNAM, proceso UNAM, registro UNAM, examen UNAM, resultados UNAM, cursos UNAM, bachillerato, capacitacion UNAM, informacion UNAM, fechas examen UNAM, calendario UNAM.">
 
     <!--links-->
-    <link rel="icon" type="image/webp" href="img/convocatoria-unam_favicon.ico">
+    <link rel="icon" type="image/webp"   href="img/convocatoria-unam_favicon.ico">
   
-    <link rel="stylesheet" type="text/css" href="sass/custom.css">
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"  type="text/css" href="sass/custom.css">
    
-    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" type="text/css" href="css/estilos.css">
 
 <!--
     <link rel="stylesheet" type="" href="css/reducido.css">
@@ -35,7 +35,12 @@
 
 
     <style>
-        /* fondo cambiante */
+        .guias{
+            background-image: url(img/guias_f.webp);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
 
     </style>
 
@@ -76,6 +81,9 @@
                         </ul>
                     </li>
                     <li class="nav-item ">
+                        <a class="nav-link" href="guias.html">Guías</a>
+                    </li>
+                    <li class="nav-item ">
                         <a class="nav-link" href="https://convocatoriaunam.com.mx/blog">Blog</a>
                     </li>
                     <li class="nav-item ">
@@ -100,28 +108,42 @@
         </div>
     </nav>
     <!--guias-->
-    <section class="container-fluid bg-primary py-5">
-        <div class="container" >
-            <h2 class="text-center">descarga aqui las guias de la UNAM</h2>
+    <section class="jumbotron-fluid guias py-5">
+        <div class="container text-center py-5" >
+            <h2 class="text-center text-white">DESCARGA LAS GUÍAS DE LA UNAM</h2>
+            <h6 class="text-center text-white fs-2">Convocatoria UNAM 2021</h6>
         </div>
     </section>
 
 
 
-    <section class="container-fluid py-5">
+    <section class="container-fluid py-5 my-5">
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <img class="img-fluid" src="img/guia_area_ciencias_biologica.webp" alt="">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 text-center">
+                <div class="col ">
+                    <h4 class="mb-4">Guía <br> Área 1</h4>
+                    <img class="img-fluid w-75 shadow lazyload" data-src="img/guia_fisica-matematicas.webp" alt="area 1">
+                    <p class=" mt-4 mb-5"><a class="btn btn-primary text-white shadow" href="https://convocatoriaunam.com.mx/guias/   " download="   ">DESCARGAR  <i class="bi bi-download"></i></a></p>
+                    <iframe class="img-fluid lazyload mb-5" width="560" height="560" data-src="https://www.youtube.com/embed/videoseries?list=PLQMqyKry1ABsNSdGwHyeyy_U-bAl3_IJv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
                 </div>
                 <div class="col">
-                    <img class="img-fluid" src="img/guia_fisica-matematicas.webp" alt="">
+                    <h4 class="mb-4">Guía <br> Área 2</h4>
+                    <img class="img-fluid w-75 shadow lazyload" data-src="img/guia_area_ciencias_biologica.webp"  alt="">
+                    <p class=" mt-4 mb-5"><a class="btn btn-primary text-white shadow" href="https://convocatoriaunam.com.mx/guias/Guia-UNAM-2021-Area-1.pdf   " download="Guia-UNAM-2021-Area-1">DESCARGAR  <i class="bi bi-download"></i></a></p>
+                    <iframe class="img-fluid lazyload mb-5" width="560" height="315" data-src="https://www.youtube.com/embed/videoseries?list=PLQMqyKry1ABtTy74lPVVq6gw6MxHbn9Ak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="col">
-                    <img class="img-fluid" src="img/guia_humanidades.webp" alt="">
+                    <h4 class="mb-4">Guía <br> Área 3</h4>
+                    <img class="img-fluid w-75 shadow lazyload"  data-src="img/guia_ciencias_sociales.jpg" alt="">
+                    <p class=" mt-4 mb-5"><a class="btn btn-primary text-white shadow" href="https://convocatoriaunam.com.mx/guias/Guia-UNAM-2021-Area-3.pdf   " download="Guia-UNAM-2021-Area-3">DESCARGAR  <i class="bi bi-download"></i></a></p>
+                    <iframe class="img-fluid lazyload mb-5" width="560" height="315" data-src="https://www.youtube.com/embed/videoseries?list=PLQMqyKry1ABs3qujTn9eUxQ4yVHNXXa_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="col">
-                    <img class="img-fluid" src="img/guia_ciencias_sociales.jpg" alt="">
+                    <h4 class="mb-4">Guía <br> Área 4</h4>
+                    <img class="img-fluid w-75 shadow lazyload" data-src="img/guia_humanidades.webp" alt="">
+                    <p class=" mt-4 mb-5"><a class="btn btn-primary text-white shadow" href="https://convocatoriaunam.com.mx/guias/Guia-UNAM-2021-Area-4.pdf " download="Guia-UNAM-2021-Area-4  ">DESCARGAR  <i class="bi bi-download"></i></a></p>
+                    <iframe class="img-fluid lazyload mb-5"   width="560" height="315" data-src="https://www.youtube.com/embed/videoseries?list=PLQMqyKry1ABsNSdGwHyeyy_U-bAl3_IJv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -132,8 +154,8 @@
 
     
     <!--boletin-->
-    <section class="container-fluid mb-5">
-        <div class="container ">
+    <section class="container-fluid mt-5 mb-5">
+        <div class="container mt-5 mb-5">
             <div class="boletin text-white rounded shadow  p-5 ">
                 <p class="text-center fs-4">¿Quieres conocer más detalles de <strong> Convocatoria UNAM </strong> y estar al tanto de información relevante, resultados y publicaciones, además sobre nuevos cursos de preparación para el <strong> EXAMEN UNAM</strong>.</p>
             <p class="text-center pt-4"><a class=" btn btn-outline-light" href="#modal2">Regístrate a nuestras Sesiones Informativas</a></p>
@@ -212,6 +234,7 @@
                 </div>
             </div>
             <p class="text-center text-muted pt-5">@CONVOCATORIA UNAM 2021</p>
+            <p class="text-center text-muted"> <small> Todas las imágenes y logotipos de terceros fueron usados con fines informativos</small></p>
         </div>
     </section>
 
