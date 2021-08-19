@@ -25,7 +25,7 @@
     -webkit-transition: all 500ms ease-in;
     -moz-transition: all 500ms ease-in;
     transition: all 500ms ease-in;
-    background-image: url(../img/linea-2.png);
+    background-image: url(../img/linea-2.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;   
@@ -42,28 +42,28 @@
 }
 .movedown {
     margin: 0 auto;
-    }
+}
 .rotate {
     margin: 10% auto;
     -webkit-transform: scale(-5,-5);
     transform: scale(-5,-5);
-    }
+}
 .resize {
     margin: 10% auto;
     width:0;
     height:0;
-    }
+}
 .modalmask:target .movedown{       
     margin:10% auto;
-    }
+}
 .modalmask:target .rotate{     
     transform: rotate(360deg) scale(1,1);
     -webkit-transform: rotate(360deg) scale(1,1);   
-    }
+}
 .modalmask:target .resize{
     width:400px;
     height:200px;
-    }
+}
 .close {
     background: #606061;
     color: #FFFFFF;
@@ -76,17 +76,17 @@
     text-decoration: none;
     font-weight: bold;
     border-radius:3px;
-    }
+}
 .close:hover {
     background: #BD8D24;
     color:#222;
-    }
+}
 .testi{
     position: absolute;
     top:0;
     right: 0;
     padding: 3px;
-    }
+}
 .testi2{
     position: absolute;
     bottom:0;
@@ -115,13 +115,11 @@
     left: 45%;
     transform: scale(2) rotate(20deg);
 }
-
 .rotamovil{
     position: relative; 
     bottom: -50px;
     left: 38%;
-    transform: scale(2);
-
+    transform: scale(3.4);
 }
 .appwhatsapp{
     position: fixed;
@@ -148,7 +146,6 @@
     transition-duration: 1s;
     transition-timing-function: ease;
     transition-delay: 0s;
-    
 }
 /*FONDOS*/
 
@@ -184,14 +181,12 @@
     background-size: cover;
 }
 /*INDEX*/
-
 .fondo{
     background-image: url(../img/img4.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-
 .fondo1{
     background-image: url(../img/chica-haciendo-su-examen_1098-218.webp);
     background-repeat: no-repeat;
@@ -264,7 +259,6 @@
     background-position: center;
     background-size: cover;
 }
-
 .inv{
     background-image: url(../img/inve.webp);
     background-repeat: no-repeat;
@@ -283,8 +277,6 @@
     background-position: center;
     background-size: cover;
 }
-
-
 /*SESIONES INFORMATIVAS*/
 .informativa{
     background-image: url(../img/sesion-informativa.webp);
@@ -292,8 +284,6 @@
     background-position: center;
     background-size: cover;
 }
-
-
 /*AULA VIRTUAL*/
 .aula{
     background-image: url(../img/aula.webp);
@@ -301,8 +291,6 @@
     background-position: center;
     background-size: cover;
 }
-
-
 /*CURSO EN LINEA*/
 .curso-linea{
     background-image: url(../img/curso-linea.webp);
@@ -317,20 +305,6 @@
     background-position: center;
     background-size: cover;
 }
-/*TALLER DE REACTIVOS*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width:901px) and (max-width:3000px) {
     .cuadrada{
         display: none;

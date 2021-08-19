@@ -1,0 +1,24 @@
+{
+  "name": "unam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "purgecss --css sass/custom.css --content index.html aula_virtual.html cursoenlinea.html guias.html politica_privacidad.html sesionesinformativas.html --output sass/reducido.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlceca05/convounam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlceca05/convounam/issues"
+  },
+  "homepage": "https://github.com/carlceca05/convounam#readme"
+}
