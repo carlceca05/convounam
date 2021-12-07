@@ -545,6 +545,45 @@ iframe {
   border-color: #BD8D24;
 }
 
+.btn-secondary {
+  color: #fff;
+  background-color: #07092F;
+  border-color: #07092F;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #060828;
+  border-color: #060726;
+}
+
+ .btn-secondary:focus {
+  color: #fff;
+  background-color: #060828;
+  border-color: #060726;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(44, 46, 78, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(44, 46, 78, 0.5);
+}
+
+ .btn-secondary:active, .btn-secondary.active,
+.show > .btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #060726;
+  border-color: #050723;
+}
+
+ .btn-secondary:active:focus, .btn-secondary.active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(44, 46, 78, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(44, 46, 78, 0.5);
+}
+
+.btn-secondary:disabled {
+  color: #fff;
+  background-color: #07092F;
+  border-color: #07092F;
+}
+
 .btn-light {
   color: #000;
   background-color: #f8f9fa;
@@ -652,6 +691,22 @@ iframe {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   border-radius: 0.3rem;
+}
+
+.fade {
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.fade:not(.show) {
+  opacity: 0;
 }
 
 .collapse:not(.show) {
@@ -1129,6 +1184,41 @@ iframe {
   }
 }
 
+.btn-close {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 1em;
+  height: 1em;
+  padding: 0.25em 0.25em;
+  color: #000;
+  background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+  border: 0;
+  border-radius: 0.25rem;
+  opacity: 0.5;
+}
+
+.btn-close:hover {
+  color: #000;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+.btn-close:focus {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(189, 141, 36, 0.25);
+          box-shadow: 0 0 0 0.25rem rgba(189, 141, 36, 0.25);
+  opacity: 1;
+}
+
+.btn-close:disabled {
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  opacity: 0.25;
+}
+
 .modal {
   position: fixed;
   top: 0;
@@ -1139,6 +1229,119 @@ iframe {
   height: 100%;
   overflow: hidden;
   outline: 0;
+}
+
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 0.5rem;
+  pointer-events: none;
+}
+
+.modal.fade .modal-dialog {
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  -webkit-transform: translate(0, -50px);
+          transform: translate(0, -50px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modal.fade .modal-dialog {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.modal.show .modal-dialog {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.modal-content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
+.modal-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 1rem;
+  border-bottom: 1px solid #dee2e6;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.modal-header .btn-close {
+  padding: 0.5rem 0.5rem;
+  margin: -0.5rem -0.5rem -0.5rem auto;
+}
+
+.modal-title {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.modal-body {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 1rem;
+}
+
+.modal-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0.75rem;
+  border-top: 1px solid #dee2e6;
+  border-bottom-right-radius: calc(0.3rem - 1px);
+  border-bottom-left-radius: calc(0.3rem - 1px);
+}
+
+.modal-footer > * {
+  margin: 0.25rem;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 500px;
+    margin: 1.75rem auto;
+  }
 }
 
 .carousel {
@@ -1677,9 +1880,6 @@ iframe {
   }
 }
 /*# sourceMappingURL=custom.css.map */
-
-
-/* mis estilos */
 .modalmask {
   position: fixed;
   font-family: Arial, sans-serif;
@@ -1707,7 +1907,7 @@ iframe {
   -webkit-transition: all 500ms ease-in;
   -moz-transition: all 500ms ease-in;
   transition: all 500ms ease-in;
-  background-image: url(../img/linea-2.png);
+  background-image: url(../img/linea-2.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;   
@@ -1724,28 +1924,28 @@ iframe {
 }
 .movedown {
   margin: 0 auto;
-  }
+}
 .rotate {
   margin: 10% auto;
   -webkit-transform: scale(-5,-5);
   transform: scale(-5,-5);
-  }
+}
 .resize {
   margin: 10% auto;
   width:0;
   height:0;
-  }
+}
 .modalmask:target .movedown{       
   margin:10% auto;
-  }
+}
 .modalmask:target .rotate{     
   transform: rotate(360deg) scale(1,1);
   -webkit-transform: rotate(360deg) scale(1,1);   
-  }
+}
 .modalmask:target .resize{
   width:400px;
   height:200px;
-  }
+}
 .close {
   background: #606061;
   color: #FFFFFF;
@@ -1758,17 +1958,17 @@ iframe {
   text-decoration: none;
   font-weight: bold;
   border-radius:3px;
-  }
+}
 .close:hover {
   background: #BD8D24;
   color:#222;
-  }
+}
 .testi{
   position: absolute;
   top:0;
   right: 0;
   padding: 3px;
-  }
+}
 .testi2{
   position: absolute;
   bottom:0;
@@ -1797,13 +1997,11 @@ iframe {
   left: 45%;
   transform: scale(2) rotate(20deg);
 }
-
 .rotamovil{
   position: relative; 
   bottom: -50px;
   left: 38%;
   transform: scale(3.4);
-
 }
 .appwhatsapp{
   position: fixed;
@@ -1830,7 +2028,6 @@ iframe {
   transition-duration: 1s;
   transition-timing-function: ease;
   transition-delay: 0s;
-  
 }
 /*FONDOS*/
 
@@ -1866,14 +2063,12 @@ iframe {
   background-size: cover;
 }
 /*INDEX*/
-
 .fondo{
   background-image: url(../img/img4.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-
 .fondo1{
   background-image: url(../img/chica-haciendo-su-examen_1098-218.webp);
   background-repeat: no-repeat;
@@ -1946,7 +2141,6 @@ iframe {
   background-position: center;
   background-size: cover;
 }
-
 .inv{
   background-image: url(../img/inve.webp);
   background-repeat: no-repeat;
@@ -1965,8 +2159,6 @@ iframe {
   background-position: center;
   background-size: cover;
 }
-
-
 /*SESIONES INFORMATIVAS*/
 .informativa{
   background-image: url(../img/sesion-informativa.webp);
@@ -1974,8 +2166,6 @@ iframe {
   background-position: center;
   background-size: cover;
 }
-
-
 /*AULA VIRTUAL*/
 .aula{
   background-image: url(../img/aula.webp);
@@ -1983,8 +2173,6 @@ iframe {
   background-position: center;
   background-size: cover;
 }
-
-
 /*CURSO EN LINEA*/
 .curso-linea{
   background-image: url(../img/curso-linea.webp);
@@ -1999,20 +2187,6 @@ iframe {
   background-position: center;
   background-size: cover;
 }
-/*TALLER DE REACTIVOS*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width:901px) and (max-width:3000px) {
   .cuadrada{
       display: none;

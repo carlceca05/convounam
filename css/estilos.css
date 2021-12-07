@@ -1,3 +1,26 @@
+.sombrio{
+    
+    box-shadow: 0px 5px 15px 0px rgba(60, 160, 144, 0.4);
+}
+
+.gordita{
+    font-weight: 900;
+}
+.llenita{
+    font-weight: 800;
+}
+.colaboradores{
+
+}
+.colaboradores:hover{
+    transform: translate(0,-10px);
+    transition: all 1s;
+}
+
+.logofooter{
+    width: 80%;
+}
+
 .modalmask {
     position: fixed;
     font-family: Arial, sans-serif;
@@ -383,6 +406,9 @@
     }
     .advertensia{
         font-size: 3.5em;
+    }
+    .logofooter{
+        width: 40%;
     }
 }    
 
