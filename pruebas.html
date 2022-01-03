@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de aciertos</title>
+
+    <link rel="stylesheet" href="sass/custom.css">
+</head>
+<body>
+    <style>
+        table, th, td {
+            border: 1px solid #07092F;
+            padding: 0 15px;
+            font-size: small;
+        }
+        .oculto{
+            display: none;
+        }
+        .show{
+            display: block;
+        }
+
+    </style>
+
+    <div class="py-5 d-flex justify-content-center ">
+        <form method="get" action="">
+            <select name="carreras" id="carrerasunam" onchange="MostrarSeleccionado()"> <!-- onchange="MostrarSeleccionado()"  -->
+                <option value=""> selecciona una carrera  </option>
+                <option value="1">Actuaria</option>
+                <option value="2">Administración</option>
+                <option value="3">Administración Agropecuaria</option>
+                <option value="4">Administración de Archivos y Gestión Documental</option>
+                <option value="100">Antropología</option>
+                <option value="5">Arquitectura</option>
+                <option value="107">Arquitectura del Paisaje</option>
+                <option value="7">Artes Visuales</option>
+                <option value="6">Arte y Diseño</option>
+                <option value="8">Bibliotecologia y Estudios de la Información</option>
+                <option value="9">Biología</option>
+                <option value="10">Bioquímica Diagnóstica</option>
+                <option value="11">Canto</option>
+                <option value="12">Ciencia de Materiales Sustentables</option>
+                <option value="13">Ciencias Ambientales</option>
+                <option value="14">Ciencias de la Computación</option>
+                <option value="15">Ciencias de la Comunicación</option>
+                <option value="16">Ciencias de la Comunicación (Periodismo)</option>
+                <option value="17">Ciencias de la Tierra</option>
+                <option value="18">Ciencias Políticas y Administración Pública</option>
+                <option value="19">Cirujano Dentista</option>
+                <option value="20">Composición</option>
+                <option value="21">Comunicación</option>
+                <option value="22">Comunicación y Periodismo</option>
+                <option value="23">Contaduría</option>
+                <option value="24">Derecho</option>
+                <option value="25">Desarrollo Comunitario para el Envejecimiento</option>
+                <option value="101">Desarrollo Territorial</option>
+                <option value="26">Desarrollo y Gestión Interculturales</option>
+                <option value="27">Diseño Gráfico</option>
+                <option value="28">Diseño Industrial</option>
+                <option value="29">Diseño y Comunicación Visual</option>
+                <option value="30">Economía</option>
+                <option value="31">Economía Industrial</option>
+                <option value="32">Educación Musical</option>
+                <option value="33">Enfermería</option>
+                <option value="34">Enfermería y Obstetricia</option>
+                <option value="35">Enseñanza de Alemán como Lengua Extranjera</option>
+                <option value="36">Enseñanza de Español como Lengua Extranjera</option>
+                <option value="37">Enseñanza de Francés como Lengua Extranjera</option>
+                <option value="38">Enseñanza de Inglés</option>
+                <option value="39">Enseñanza de Inglés como Lengua Extranjera</option>
+                <option value="40">Enseñanza de Italiano como Lengua Extranjera</option>
+                <option value="41">Estudios Latinoamericanos</option>
+                <option value="42">Estudios Sociales y Gestión Local</option>
+                <option value="43">Etnomusicología</option>
+                <option value="44">Farmacia</option>
+                <option value="45">Filosofía</option>
+                <option value="46">Física</option>
+                <option value="47">Física Biomédica</option>
+                <option value="48">Físioterapia</option>
+                <option value="49">Geociencias</option>
+                <option value="50">Geografía</option>
+                <option value="112">Geografía aplicada</option>
+                <option value="51">GeoHistoria</option>
+                <option value="52">Historia</option>
+                <option value="53">Historia del Arte</option>
+                <option value="54">Informática</option>
+                <option value="113">Ingeniería Aero-Espacial</option>
+                <option value="56">Ingeniería Agrícola</option>
+                <option value="109">Ingeniería Ambiental</option>
+                <option value="57">Ingeniería Cívil</option>
+                <option value="60">Ingeniería de Eléctrica - Electrónica</option>
+                <option value="58">Ingeniería de Minas y Metalurgia</option>
+                <option value="61">Ingeniería en Alimentos</option>
+                <option value="62">Ingeniería en Computación</option>
+                <option value="55">Ingeniería en Telecomunicaciones Sistemas y Electrónica</option>
+                <option value="63">Ingeniería Geofísica</option>
+                <option value="64">Ingeniería Geológica</option>
+                <option value="65">Ingeniería Geomática</option>
+                <option value="66">Ingeniería Industrial</option>
+                <option value="67">Ingeniería Mecánica</option>
+                <option value="68">Ingeniería Mecánica Eléctrica</option>
+                <option value="69">Ingeniería Petrolera</option>
+                <option value="70">Ingeniería Química</option>
+                <option value="71">Ingeniería Química Metalúrgica</option>
+                <option value="72">Instrumentista</option>
+                <option value="74">Lengua y Literaturas Hispánicas</option>
+                <option value="75">Lengua y Literaturas Modernas (Letras Alemanas)</option>
+                <option value="76">Lengua y Literaturas Modernas (Letras Francesas)</option>
+                <option value="73">Lengua y Literaturas Modernas (Letras Inglesas)</option>
+                <option value="77">Lengua y Literaturas Modernas (Letras Italianas)</option>
+                <option value="78">Lengua y Literaturas Modernas (Letras Portuguesas)</option>
+                <option value="79">Letras Clásicas</option>
+                <option value="105">Lingüistica aplicada</option>
+                <option value="80">Literatura Dramática y Teatro</option>
+                <option value="81">Literatura Intercultural</option>
+                <option value="111">Manejo sustentable de zonas costeras</option>
+                <option value="82">Matemáticas</option>
+                <option value="103">Matemáticas Aplicadas</option>
+                <option value="83">Matemáticas Aplicadas y Computación</option>
+                <option value="84">Medicina Veterinaria y Zootecnia</option>
+                <option value="85">Medico Cirujano</option>
+                <option value="104">Música y Tecnología Artística</option>
+                <option value="108">Nutriología</option>
+                <option value="86">Odontología</option>
+                <option value="87">Optometría</option>
+                <option value="88">Pedagogía</option>
+                <option value="89">Piano</option>
+                <option value="90">Planif. para el Desarrollo Agropecuario</option>
+                <option value="91">Psicología</option>
+                <option value="92">Química</option>
+                <option value="93">Química de Alimentos</option>
+                <option value="94">Química Farmacéutico Biológica</option>
+                <option value="95">Química Industrial</option>
+                <option value="96">Relaciones Internacionales</option>
+                <option value="97">Sociología</option>
+                <option value="98">Tecnologías para la Información en Ciencias</option>
+                <option value="99">Trabajo Social</option>
+                <option value="106">Traducción</option>
+                <option value="110">Urbanismo</option>
+            </select>    
+        </form>
+    </div>
+
+    <p class="text-center"><a class="btn btn-secondary shadow" href="pruebas.html" > <small> Limpiar</small>  </a></p>
+    
+    <!--actuaria-->
+    <div id="actuaria" class="oculto mb-2" >
+    <table  style="max-width: 1200px; margin-right: auto; margin-left: auto;  ">
+        <thead class="text-center" >
+            <tr class="">
+                <th colspan="5" class=" bg-primary text-center text-white py-2">Área 1: Ciencias Físico Matemáticas y de las Ingenierías </th>
+            </tr>
+            <tr>
+                <th>Carrera</th>
+                <th> Plantel </th>
+                <th> Sistema  </th>
+                <th> Lugares disponibles <br> en 2020 </th>
+                <th> Aciertos mínimos</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td rowspan="2">Actuaría</td>
+                <td > Facultad de Ciencias </td>
+                <td>Escolarizado</td>
+                <td>58</td>
+                <td>111</td>
+            </tr>
+            <tr>
+                <td>Fes Acatlán</td>
+                <td>Escolarizado</td>
+                <td>51</td>
+                <td>105</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <!--Administración -->
+    <div  id="administracion" class="oculto mb-2">
+    <table  style="max-width: 1200px; margin-right: auto; margin-left: auto;  " >
+        <thead class="text-center" >
+            <tr class="">
+                <th colspan="5" class=" bg-primary text-center text-white py-2">Área 1: Ciencias Físico Matemáticas y de las Ingenierías </th>
+            </tr>
+            <tr>
+                <th>Carrera</th>
+                <th> Plantel </th>
+                <th> Sistema  </th>
+                <th> Lugares disponibles <br> en 2020 </th>
+                <th> Aciertos mínimos</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td rowspan="4">Administración</td>
+                <td rowspan="3">Facultad de Contaduría y Administración </td>
+                <td>Escolarizado</td>
+                <td>390</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>SUAyED-mod.Abierta</td>
+                <td>81</td>
+                <td>89</td>
+            </tr>
+            <tr>
+                <td>SUAyED-mod.Distancia</td>
+                <td>165</td>
+                <td>93</td>
+            </tr>
+            <tr>
+                <td>FES Cuautitlán</td>
+                <td>Escolarizado</td>
+                <td>235</td>
+                <td>77</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+    <!--Administración Agropecuaria-->
+    <table id="administracion-agropecuaria" class="oculto mb-2" style="max-width: 1200px; margin-right: auto; margin-left: auto;  " >
+        <thead class="text-center" >
+            <tr class="">
+                <th colspan="5" class=" bg-primary text-center text-white py-2">Área 1: Ciencias Físico Matemáticas y de las Ingenierías </th>
+            </tr>
+            <tr>
+                <th>Carrera</th>
+                <th> Plantel </th>
+                <th> Sistema  </th>
+                <th> Lugares disponibles <br> en 2020 </th>
+                <th> Aciertos mínimos</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td rowspan="2">Administración Agropecuaria</td>
+                <td > Escuela Nacional de Estudios Superiores,
+                    Unidad León, Guanajuato </td>
+                <td>Escolarizado</td>
+                <td>64</td>
+                <td>41</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Administración de Archivos y Gestión Documental -->
+    <table id="administraciondearchivosygestiondocumental" class="oculto mb-2 " style="max-width: 1200px; margin-right: auto; margin-left: auto;  " >
+        <thead class="text-center" >
+            <tr class="">
+                <th colspan="5" class=" bg-primary text-center text-white py-2">Área 1: Ciencias Físico Matemáticas y de las Ingenierías </th>
+            </tr>
+            <tr>
+                <th>Carrera</th>
+                <th> Plantel </th>
+                <th> Sistema  </th>
+                <th> Lugares disponibles <br> en 2020 </th>
+                <th> Aciertos mínimos</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td rowspan="3">Administración de
+                    Archivos y Gestión
+                    Documental </td>
+                <td rowspan="2"> Escuela Nacional de Estudios Superiores,
+                    Unidad Morelia, Michoacán </td>
+                <td>Escolarizado</td>
+                <td>41</td>
+                <td>47</td>
+            </tr>
+            <tr>
+                <td>SUAyED-mod.Distancia</td>
+                <td>205</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <td>Facultad de Filosofía y Letras</td>
+                <td>Escolarizado</td>
+                <td>15</td>
+                <td>76</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Antropología -->
+    <table id="antropologia" class="mb-2 oculto" style="max-width: 1200px; margin-right: auto; margin-left: auto;  " >
+        <thead class="text-center" >
+            <tr class="">
+                <th colspan="5" class=" bg-primary text-center text-white py-2">Área 1: Ciencias Físico Matemáticas y de las Ingenierías </th>
+            </tr>
+            <tr>
+                <th>Carrera</th>
+                <th> Plantel </th>
+                <th> Sistema  </th>
+                <th> Lugares disponibles <br> en 2020 </th>
+                <th> Aciertos mínimos</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td>Antropología  </td>
+                <td> Escuela Nacional de Estudios Superiores,
+                    Unidad Morelia, Michoacán </td>
+                <td>Escolarizado</td>
+                <td>100</td>
+                <td>97</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Arquitectura -->
+    <table id="arquitectura" class="mb-2 oculto" style="max-width: 1200px; margin-right: auto; margin-left: auto;  " >
+        <thead class="text-center" >
+            <tr class="">
+                <th colspan="5" class=" bg-primary text-center text-white py-2">Área 1: Ciencias Físico Matemáticas y de las Ingenierías </th>
+            </tr>
+            <tr>
+                <th>Carrera</th>
+                <th> Plantel </th>
+                <th> Sistema  </th>
+                <th> Lugares disponibles <br> en 2020 </th>
+                <th> Aciertos mínimos</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td rowspan="3">Arquitectura  </td>
+                <td>Facultad de Arquitectura </td>
+                <td>Escolarizado</td>
+                <td>260</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td>FES Acatlán</td>
+                <td>86</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>FES Aragón </td>
+                <td>Escolarizado</td>
+                <td>95</td>
+                <td>86</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Arquitectura del Paisaje -->
+    <table id="arquitecturadelpaisaje" class="mb-2 oculto" style="max-width: 1200px; margin-right: auto; margin-left: auto;  " >
+        <thead class="text-center" >
+            <tr class="">
+                <th colspan="5" class=" bg-primary text-center text-white py-2">Área 1: Ciencias Físico Matemáticas y de las Ingenierías </th>
+            </tr>
+            <tr>
+                <th>Carrera</th>
+                <th> Plantel </th>
+                <th> Sistema  </th>
+                <th> Lugares disponibles <br> en 2020 </th>
+                <th> Aciertos mínimos</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td>Arquitectura del Paisaje  </td>
+                <td>Facultad de Arquitectura </td>
+                <td>Escolarizado</td>
+                <td>25</td>
+                <td>93</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Arte y Diseño-->
+    <table id="arteydiseño" class="mb-2 oculto" style="max-width: 1200px; margin-right: auto; margin-left: auto;  " >
+        <thead class="text-center" >
+            <tr class="">
+                <th colspan="5" class=" bg-primary text-center text-white py-2">Área 1: Ciencias Físico Matemáticas y de las Ingenierías </th>
+            </tr>
+            <tr>
+                <th>Carrera</th>
+                <th> Plantel </th>
+                <th> Sistema  </th>
+                <th> Lugares disponibles <br> en 2020 </th>
+                <th> Aciertos mínimos</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td rowspan="2">Arte y Diseño  </td>
+                <td>Facultad de Artes y Diseño, Campus Taxco, Guerrero </td>
+                <td>Escolarizado</td>
+                <td>29</td>
+                <td>79</td>
+            </tr>
+            <tr>
+                <td>Escuela Nacional de Estudios Superiores, Unidad Morelia, Michoacán 
+                     </td>
+                <td>Escolarizado</td>
+                <td>41</td>
+                <td>83</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Artes Visuales-->
+    <table id="artesvisuales" class="mb-2 oculto" style="max-width: 1200px; margin-right: auto; margin-left: auto;  " >
+        <thead class="text-center" >
+            <tr class="">
+                <th colspan="5" class=" bg-primary text-center text-white py-2">Área 1: Ciencias Físico Matemáticas y de las Ingenierías </th>
+            </tr>
+            <tr>
+                <th>Carrera</th>
+                <th> Plantel </th>
+                <th> Sistema  </th>
+                <th> Lugares disponibles <br> en 2020 </th>
+                <th> Aciertos mínimos</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td rowspan="2">Artes Visuales  </td>
+                <td>Facultad de Artes y Diseño</td>
+                <td>Escolarizado</td>
+                <td>30</td>
+                <td>107</td>
+            </tr>
+            <tr>
+                <td>Facultad de Artes y Diseño, Campus Taxco, Guerrero </td>
+                <td>Escolarizado</td>
+                <td colspan="2">No se ofertaron lugares para el Ciclo Escolar 2020-2021</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Bibliotecología y Estudios de la Información-->
+    <table id="bibliotecologiayestudiosdelainformacion" class="mb-2 oculto" style="max-width: 1200px; margin-right: auto; margin-left: auto;  " >
+        <thead class="text-center" >
+            <tr class="">
+                <th colspan="5" class=" bg-primary text-center text-white py-2">Área 1: Ciencias Físico Matemáticas y de las Ingenierías </th>
+            </tr>
+            <tr>
+                <th>Carrera</th>
+                <th> Plantel </th>
+                <th> Sistema  </th>
+                <th> Lugares disponibles <br> en 2020 </th>
+                <th> Aciertos mínimos</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td rowspan="2">Bibliotecología y Estudios de la Información </td>
+                <td rowspan="2">Facultad de Filosofía y Letras</td>
+                <td>Escolarizado</td>
+                <td>50</td>
+                <td>74</td>
+            </tr>
+            <tr>
+                <td>SUAyED-mod Distancia</td>
+                <td>49</td>
+                <td>73</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Biología-->
+    <table id="Biología" class="mb-2 oculto" style="max-width: 1200px; margin-right: auto; margin-left: auto;  " >
+        <thead class="text-center" >
+            <tr class="">
+                <th colspan="5" class=" bg-primary text-center text-white py-2">Área 1: Ciencias Físico Matemáticas y de las Ingenierías </th>
+            </tr>
+            <tr>
+                <th>Carrera</th>
+                <th> Plantel </th>
+                <th> Sistema  </th>
+                <th> Lugares disponibles <br> en 2020 </th>
+                <th> Aciertos mínimos</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td rowspan="2">Biología </td>
+                <td>Facultad de Ciencias</td>
+                <td>Escolarizado</td>
+                <td>130</td>
+                <td>105</td>
+            </tr>
+            <tr>
+                <td>FES Iztacala</td>
+                <td>Escolarizado</td>
+                <td>110</td>
+                <td>96</td>
+            </tr>
+            <tr>
+                <td>FES Zaragoza</td>
+                <td>Escolarizado</td>
+                <td>115</td>
+                <td>93</td>
+            </tr>
+            <tr>
+                <td>FES Zaragoza Campus III, Tlaxcala</td>
+                <td>Escolarizado</td>
+                <td colspan="2">No se ofertaron lugares para el Ciclo Escolar 2020-2021</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Bioquímica Diagnóstica-->
+    <table id="Bioquímica Diagnóstica oculto" class="mb-2 oculto" style="max-width: 1200px; margin-right: auto; margin-left: auto;  " >
+        <thead class="text-center" >
+            <tr class="">
+                <th colspan="5" class=" bg-primary text-center text-white py-2">Área 1: Ciencias Físico Matemáticas y de las Ingenierías </th>
+            </tr>
+            <tr>
+                <th>Carrera</th>
+                <th> Plantel </th>
+                <th> Sistema  </th>
+                <th> Lugares disponibles <br> en 2020 </th>
+                <th> Aciertos mínimos</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td>Bioquímica Diagnóstica</td>
+                <td>FES Cuautitlán</td>
+                <td>25</td>
+                <td>101</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Canto-->
+    <table id="Canto" class="mb-2 oculto" style="max-width: 1200px; margin-right: auto; margin-left: auto;  " >
+        <thead class="text-center" >
+            <tr class="">
+                <th colspan="5" class=" bg-primary text-center text-white py-2">Área 1: Ciencias Físico Matemáticas y de las Ingenierías </th>
+            </tr>
+            <tr>
+                <th>Carrera</th>
+                <th> Plantel </th>
+                <th> Sistema  </th>
+                <th> Lugares disponibles <br> en 2020 </th>
+                <th> Aciertos mínimos</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td rowspan="2">Canto*</td>
+                <td rowspan="2">Facultad de Música</td>
+                <td>Escolarizado</td>
+                <td>17</td>
+                <td>61</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Ciencias Agroforestales -->
+    <table id="cienciasagroforestales " class="mb-2 oculto" style="max-width: 1200px; margin-right: auto; margin-left: auto;  " >
+        <thead class="text-center" >
+            <tr class="">
+                <th colspan="5" class=" bg-primary text-center text-white py-2">Área 1: Ciencias Físico Matemáticas y de las Ingenierías </th>
+            </tr>
+            <tr>
+                <th>Carrera</th>
+                <th> Plantel </th>
+                <th> Sistema  </th>
+                <th> Lugares disponibles <br> en 2020 </th>
+                <th> Aciertos mínimos</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td>Ciencias Agroforestales </td>
+                <td>Escuela Nacional de Estudios Superiores, Unidad Morelia, Michoacán</td>
+                <td>Escolarizado</td>
+                <td>25</td>
+                <td>58</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Ciencias Agrogenómicas -->
+    <table id="cienciasagrogenómicas " class="mb-2 oculto" style="max-width: 1200px; margin-right: auto; margin-left: auto;  " >
+        <thead class="text-center" >
+            <tr class="">
+                <th colspan="5" class=" bg-primary text-center text-white py-2">Área 1: Ciencias Físico Matemáticas y de las Ingenierías </th>
+            </tr>
+            <tr>
+                <th>Carrera</th>
+                <th> Plantel </th>
+                <th> Sistema  </th>
+                <th> Lugares disponibles <br> en 2020 </th>
+                <th> Aciertos mínimos</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td>Ciencias Agrogenómicas </td>
+                <td>Escuela Nacional de Estudios Superiores, Unidad León, Guanajuato</td>
+                <td>Escolarizado</td>
+                <td colspan="2">No se indican lugares disponibles, por ser carrera de ingreso indirecto</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Ciencias Ambientales -->
+    <table id="cienciasambientales" class="mb-2 oculto" style="max-width: 1200px; margin-right: auto; margin-left: auto;  " >
+        <thead class="text-center" >
+            <tr class="">
+                <th colspan="5" class=" bg-primary text-center text-white py-2">Área 1: Ciencias Físico Matemáticas y de las Ingenierías </th>
+            </tr>
+            <tr>
+                <th>Carrera</th>
+                <th> Plantel </th>
+                <th> Sistema  </th>
+                <th> Lugares disponibles <br> en 2020 </th>
+                <th> Aciertos mínimos</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td rowspan="2">Ciencias Ambientales</td>
+                <td>Escuela Nacional de Estudios Superiores,
+                    Unidad Mérida, Yucatán </td>
+                    <td>Escolarizado</td>
+                <td>45</td>
+                <td>67</td>
+            </tr>
+            <tr>
+                <td>Escuela Nacional de Estudios Superiores,
+                    Unidad Morelia, Michoacán</td>
+                    <td>Escolarizado</td>
+                <td>126</td>
+                <td>49</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Ciencia de Datos -->
+    <table id="cienciadedatos" class="mb-2 oculto" style="max-width: 1200px; margin-right: auto; margin-left: auto;  " >
+        <thead class="text-center" >
+            <tr class="">
+                <th colspan="5" class=" bg-primary text-center text-white py-2">Área 1: Ciencias Físico Matemáticas y de las Ingenierías </th>
+            </tr>
+            <tr>
+                <th>Carrera</th>
+                <th> Plantel </th>
+                <th> Sistema  </th>
+                <th> Lugares disponibles <br> en 2020 </th>
+                <th> Aciertos mínimos</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td rowspan="2">Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas (IIMAS) </td>
+                <td>Escolarizado</td>
+                <td colspan="2">No se indican lugares disponibles, por ser carrera de ingreso indirecto</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Ciencias de la Computación-->
+    <table id="cienciadedatos" class="mb-2 oculto" style="max-width: 1200px; margin-right: auto; margin-left: auto;  " >
+        <thead class="text-center" >
+            <tr class="">
+                <th colspan="5" class=" bg-primary text-center text-white py-2">Área 1: Ciencias Físico Matemáticas y de las Ingenierías </th>
+            </tr>
+            <tr>
+                <th>Carrera</th>
+                <th> Plantel </th>
+                <th> Sistema  </th>
+                <th> Lugares disponibles <br> en 2020 </th>
+                <th> Aciertos mínimos</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td>Ciencias de la Computación </td>
+                <td>Facultad de Ciencias</td>
+                <td>Escolarizado</td>
+                <td> 43</td>
+                <td>108 </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Ciencias de la Comunicación-->
+    <table id="Ciencias de
+     la Comunicación" class="mb-2 oculto" style="max-width: 1200px; margin-right: auto; margin-left: auto;  " >
+        <thead class="text-center" >
+            <tr class="">
+                <th colspan="5" class=" bg-primary text-center text-white py-2">Área 1: Ciencias Físico Matemáticas y de las Ingenierías </th>
+            </tr>
+            <tr>
+                <th>Carrera</th>
+                <th> Plantel </th>
+                <th> Sistema  </th>
+                <th> Lugares disponibles <br> en 2020 </th>
+                <th> Aciertos mínimos</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td rowspan="3">Ciencias de
+                    la Comunicación </td>
+                <td rowspan="3">Facultad de Ciencias Políticas y Sociales</td>
+                <td>Escolarizado</td>
+                <td>77</td>
+                <td>107 </td>
+            </tr>
+            <tr>
+                <td>SUAyED-mod Abierta</td>
+                <td>92</td>
+                <td>107 </td>
+            </tr>
+            <tr>
+                <td>SUAyED-mod a Distancia</td>
+                <td>209</td>
+                <td>64 </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Ciencias de la Tierra-->
+    <table id="Ciencias de la Tierra" class="mb-2 oculto" style="max-width: 1200px; margin-right: auto; margin-left: auto;  " >
+        <thead class="text-center" >
+            <tr class="">
+                <th colspan="5" class=" bg-primary text-center text-white py-2">Área 1: Ciencias Físico Matemáticas y de las Ingenierías </th>
+            </tr>
+            <tr>
+                <th>Carrera</th>
+                <th> Plantel </th>
+                <th> Sistema  </th>
+                <th> Lugares disponibles <br> en 2020 </th>
+                <th> Aciertos mínimos</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td rowspan="3">Ciencias de la Tierra </td>
+                <td >Facultad de Ciencias Políticas y Sociales</td>
+                <td>Escolarizado</td>
+                <td>77</td>
+                <td>107 </td>
+            </tr>
+            <tr>
+                <td>SUAyED-mod Abierta</td>
+                <td>92</td>
+                <td>107 </td>
+            </tr>
+            <tr>
+                <td>SUAyED-mod a Distancia</td>
+                <td>209</td>
+                <td>64 </td>
+            </tr>
+        </tbody>
+    </table>
+
+    
+
+    
+
+
+
+
+
+
+
+    <script>
+        function MostrarSeleccionado(){
+            var cod = document.getElementById("carrerasunam").value;
+            if(cod == 1){
+                document.getElementById("actuaria").classList.toggle("show");
+            }
+            if(cod == 2 ){
+            document.getElementById("administracion").classList.toggle("show");
+            }
+            if(cod == 3 ){
+            document.getElementById("administracion-agropecuaria").classList.toggle("show");
+            }
+            if(cod == 4 ){
+            document.getElementById("administraciondearchivosygestiondocumental").classList.toggle("show");
+            }
+            if(cod == 5 ){
+            document.getElementById("antropologia").classList.toggle("show");
+            }
+            if(cod == 6 ){
+                document.getElementById("arquitectura").classList.toggle("show");
+            }
+            
+        };
+        
+    </script>
+    
+
+</body>
+</html>
