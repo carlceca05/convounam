@@ -28,52 +28,52 @@ function MostrarSeleccionado(){
         document.getElementById("artesvisuales").classList.toggle("show");
        }
        if(cod == 10 ){
-        document.getElementById("arquitectura").classList.toggle("show");
+        document.getElementById("Bibliotecología y Estudios de la Información").classList.toggle("show");
        }
-       if(cod == 6 ){
-        document.getElementById("arquitectura").classList.toggle("show");
+       if(cod == 11 ){
+        document.getElementById("Biología").classList.toggle("show");
        }
-       if(cod == 6 ){
-        document.getElementById("arquitectura").classList.toggle("show");
+       if(cod == 12 ){
+        document.getElementById("Bioquímica Diagnóstica").classList.toggle("show");
        }
-       if(cod == 6 ){
-        document.getElementById("arquitectura").classList.toggle("show");
+       if(cod == 13 ){
+        document.getElementById("Canto").classList.toggle("show");
        }
-       if(cod == 6 ){
-        document.getElementById("arquitectura").classList.toggle("show");
+       if(cod == 14 ){
+        document.getElementById("Ciencias Agroforestales").classList.toggle("show");
        }
-       if(cod == 6 ){
-        document.getElementById("arquitectura").classList.toggle("show");
+       if(cod == 15 ){
+        document.getElementById("Ciencias Agrogenómicas").classList.toggle("show");
        }
-       if(cod == 6 ){
-        document.getElementById("arquitectura").classList.toggle("show");
+       if(cod == 16 ){
+        document.getElementById("Ciencias Ambientales").classList.toggle("show");
        }
-       if(cod == 6 ){
-        document.getElementById("arquitectura").classList.toggle("show");
+       if(cod == 17 ){
+        document.getElementById("Ciencia de Datos").classList.toggle("show");
        }
-       if(cod == 6 ){
-        document.getElementById("arquitectura").classList.toggle("show");
+       if(cod == 18 ){
+        document.getElementById("Ciencias de la Computación").classList.toggle("show");
        }
-       if(cod == 6 ){
-        document.getElementById("arquitectura").classList.toggle("show");
+       if(cod == 19 ){
+        document.getElementById("Ciencias de la Comunicación").classList.toggle("show");
        }
-       if(cod == 6 ){
-        document.getElementById("arquitectura").classList.toggle("show");
+       if(cod == 20 ){
+        document.getElementById("Ciencias de la Tierra").classList.toggle("show");
        }
-       if(cod == 6 ){
-        document.getElementById("arquitectura").classList.toggle("show");
+       if(cod == 21 ){
+        document.getElementById("Ciencia de Materiales Sustentables").classList.toggle("show");
        }
-       if(cod == 6 ){
-        document.getElementById("arquitectura").classList.toggle("show");
+       if(cod == 22 ){
+        document.getElementById("Ciencia Forense").classList.toggle("show");
        }
-       if(cod == 6 ){
-        document.getElementById("arquitectura").classList.toggle("show");
+       if(cod == 23 ){
+        document.getElementById("Ciencias Genómicas").classList.toggle("show");
        }
-       if(cod == 6 ){
-        document.getElementById("arquitectura").classList.toggle("show");
+       if(cod == 24 ){
+        document.getElementById("Ciencias Políticas y Administración Pública").classList.toggle("show");
        }
-       if(cod == 6 ){
-        document.getElementById("arquitectura").classList.toggle("show");
+       if(cod == 25 ){
+        document.getElementById("Cinematografía").classList.toggle("show");
        }
     
 }
