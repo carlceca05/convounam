@@ -75,5 +75,71 @@ function MostrarSeleccionado(){
        if(cod == 25 ){
         document.getElementById("Cinematografía").classList.toggle("show");
        }
+       if(cod == 26 ){
+        document.getElementById("Cirujano Dentista").classList.toggle("show");
+       }
+       if(cod == 27 ){
+        document.getElementById("Composición").classList.toggle("show");
+       }
+       if(cod == 28 ){
+        document.getElementById("Comunicación").classList.toggle("show");
+       }
+       if(cod == 29 ){
+        document.getElementById("Comunicación y Periodismo").classList.toggle("show");
+       }
+       if(cod == 30 ){
+        document.getElementById("Contaduría").classList.toggle("show");
+       }
+       if(cod == 31 ){
+        document.getElementById("Derecho").classList.toggle("show");
+       }
+       if(cod == 32 ){
+        document.getElementById("Desarrollo Comunitario para el Envejecimiento").classList.toggle("show");
+       }
+       if(cod == 33 ){
+        document.getElementById("Desarrollo Territorial").classList.toggle("show");
+       }
+       if(cod == 34 ){
+        document.getElementById("Desarrollo y Gestión Interculturales").classList.toggle("show");
+       }
+       if(cod == 35 ){
+        document.getElementById("Diseño Gráfico").classList.toggle("show");
+       }
+       if(cod == 36 ){
+        document.getElementById("Diseño Industrial").classList.toggle("show");
+       }
+       if(cod == 37 ){
+        document.getElementById("Diseño y Escolarizadon Comunicación").classList.toggle("show");
+       }
+       if(cod == 38 ){
+        document.getElementById("Ecología").classList.toggle("show");
+       }
+       if(cod == 39 ){
+        document.getElementById("Economía").classList.toggle("show");
+       }
+       if(cod == 40 ){
+        document.getElementById("Economía Industrial").classList.toggle("show");
+       }
+       if(cod == 41 ){
+        document.getElementById("Educación Musical").classList.toggle("show");
+       }
+       if(cod == 42 ){
+        document.getElementById("Enfermería").classList.toggle("show");
+       }
+       if(cod == 43 ){
+        document.getElementById("Enfermería y Obstetricia").classList.toggle("show");
+       }
+       if(cod == 38 ){
+        document.getElementById("Enfermería y Obstetricia").classList.toggle("show");
+       }
+       if(cod == 38 ){
+        document.getElementById("Enfermería y Obstetricia").classList.toggle("show");
+       }
+       if(cod == 38 ){
+        document.getElementById("Enfermería y Obstetricia").classList.toggle("show");
+       }
+       if(cod == 38 ){
+        document.getElementById("Enfermería y Obstetricia").classList.toggle("show");
+       }
     
 }
