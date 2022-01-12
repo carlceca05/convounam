@@ -22,10 +22,10 @@ function MostrarSeleccionado() {
         document.getElementById("arquitecturadelpaisaje").classList.toggle("show");
     }
     if (cod == 8) {
-        document.getElementById("arteydiseño").classList.toggle("show");
+        document.getElementById("artesvisuales").classList.toggle("show");
     }
     if (cod == 9) {
-        document.getElementById("artesvisuales").classList.toggle("show");
+        document.getElementById("arteydiseño").classList.toggle("show");
     }
     if (cod == 10) {
         document.getElementById("Bibliotecología y Estudios de la Información").classList.toggle("show");
@@ -57,10 +57,10 @@ function MostrarSeleccionado() {
     if (cod == 19) {
         document.getElementById("Ciencias de la Comunicación").classList.toggle("show");
     }
-    //nueva
     if (cod == 20) {
         document.getElementById("Ciencia de la Nutrición Humana").classList.toggle("show");
     }
+    //posible falta
     if (cod == 21) {
         document.getElementById("Ciencias de la Tierra").classList.toggle("show");
     }
@@ -113,7 +113,7 @@ function MostrarSeleccionado() {
         document.getElementById("Diseño Industrial").classList.toggle("show");
     }
     if (cod == 38) {
-        document.getElementById("Diseño y Escolarizadon Comunicación").classList.toggle("show");
+        document.getElementById("Diseño y Comunicación Visual").classList.toggle("show");
     }
     if (cod == 39) {
         document.getElementById("Ecología").classList.toggle("show");
@@ -209,7 +209,7 @@ function MostrarSeleccionado() {
         document.getElementById("Ingeniería Civil").classList.toggle("show");
     }
     if (cod == 70) {
-        document.getElementById("Ingeniería de Minas Facultad de Ingeniería y Metalurgía").classList.toggle("show");
+        document.getElementById("Ingeniería de Minas y Metalurgía").classList.toggle("show");
     }
     if (cod == 71) {
         document.getElementById("Ingeniería Eléctrica y Electrónica").classList.toggle("show");
