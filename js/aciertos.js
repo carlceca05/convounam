@@ -129,17 +129,170 @@ function MostrarSeleccionado(){
        if(cod == 43 ){
         document.getElementById("Enfermería y Obstetricia").classList.toggle("show");
        }
-       if(cod == 38 ){
-        document.getElementById("Enfermería y Obstetricia").classList.toggle("show");
+       if(cod == 44 ){
+        document.getElementById("Enseñanza de Inglés").classList.toggle("show");
        }
-       if(cod == 38 ){
-        document.getElementById("Enfermería y Obstetricia").classList.toggle("show");
+       if(cod == 45 ){
+        document.getElementById("Enseñanza de Alemán como Lengua Extranjera").classList.toggle("show");
        }
-       if(cod == 38 ){
-        document.getElementById("Enfermería y Obstetricia").classList.toggle("show");
+       if(cod == 46 ){
+        document.getElementById("Enseñanza de Español como Lengua Extranjera").classList.toggle("show");
        }
-       if(cod == 38 ){
-        document.getElementById("Enfermería y Obstetricia").classList.toggle("show");
+       if(cod == 47 ){
+        document.getElementById("Enseñanza de Francés como Lengua Extranjera").classList.toggle("show");
        }
+       if(cod == 48 ){
+        document.getElementById("Enseñanza de Inglés como Lengua Extranjera").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Enseñanza de Italiano como Lengua Extranjera").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Estudios Latinoamericanos").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Estudios Sociales y Gestión Local").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Etnomusicología").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Farmacia").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Filosofía").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Física").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Física Biomédica").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Fisioterapia").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Geociencias").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Geografía").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Geografía Aplicada").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Geohistoria").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Historia").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Historia del Arte").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Informática").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Aeroespacial").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Agrícola").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Ambiental").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Civil").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería de Minas Facultad de Ingeniería y Metalurgía").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Eléctrica y Electrónica").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería en Alimentos").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería en Computación").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería en Energías Renovables").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería en Sistemas Biomédicos").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería en Telecomunicaciones").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería en Telecomunicaciones, Sistemas y Electrónica").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Geofísica").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Geológica").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Geomática").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Industrial").classList.toggle("show");
+       }
+       //aqui voy
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Geomática").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Geomática").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Geomática").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Geomática").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Geomática").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Geomática").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Geomática").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Geomática").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Geomática").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Geomática").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Geomática").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Geomática").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Geomática").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Geomática").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Geomática").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Geomática").classList.toggle("show");
+       }
+       if(cod == 47 ){
+        document.getElementById("Ingeniería Geomática").classList.toggle("show");
+       }
+
+
     
 }
