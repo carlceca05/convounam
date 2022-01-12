@@ -57,338 +57,342 @@ function MostrarSeleccionado() {
     if (cod == 19) {
         document.getElementById("Ciencias de la Comunicación").classList.toggle("show");
     }
+    //nueva
     if (cod == 20) {
-        document.getElementById("Ciencias de la Tierra").classList.toggle("show");
+        document.getElementById("Ciencia de la Nutrición Humana").classList.toggle("show");
     }
     if (cod == 21) {
-        document.getElementById("Ciencia de Materiales Sustentables").classList.toggle("show");
+        document.getElementById("Ciencias de la Tierra").classList.toggle("show");
     }
     if (cod == 22) {
-        document.getElementById("Ciencia Forense").classList.toggle("show");
+        document.getElementById("Ciencia de Materiales Sustentables").classList.toggle("show");
     }
     if (cod == 23) {
-        document.getElementById("Ciencias Genómicas").classList.toggle("show");
+        document.getElementById("Ciencia Forense").classList.toggle("show");
     }
     if (cod == 24) {
-        document.getElementById("Ciencias Políticas y Administración Pública").classList.toggle("show");
+        document.getElementById("Ciencias Genómicas").classList.toggle("show");
     }
     if (cod == 25) {
-        document.getElementById("Cinematografía").classList.toggle("show");
+        document.getElementById("Ciencias Políticas y Administración Pública").classList.toggle("show");
     }
     if (cod == 26) {
-        document.getElementById("Cirujano Dentista").classList.toggle("show");
+        document.getElementById("Cinematografía").classList.toggle("show");
     }
     if (cod == 27) {
-        document.getElementById("Composición").classList.toggle("show");
+        document.getElementById("Cirujano Dentista").classList.toggle("show");
     }
     if (cod == 28) {
-        document.getElementById("Comunicación").classList.toggle("show");
+        document.getElementById("Composición").classList.toggle("show");
     }
     if (cod == 29) {
-        document.getElementById("Comunicación y Periodismo").classList.toggle("show");
+        document.getElementById("Comunicación").classList.toggle("show");
     }
     if (cod == 30) {
-        document.getElementById("Contaduría").classList.toggle("show");
+        document.getElementById("Comunicación y Periodismo").classList.toggle("show");
     }
     if (cod == 31) {
-        document.getElementById("Derecho").classList.toggle("show");
+        document.getElementById("Contaduría").classList.toggle("show");
     }
     if (cod == 32) {
-        document.getElementById("Desarrollo Comunitario para el Envejecimiento").classList.toggle("show");
+        document.getElementById("Derecho").classList.toggle("show");
     }
     if (cod == 33) {
-        document.getElementById("Desarrollo Territorial").classList.toggle("show");
+        document.getElementById("Desarrollo Comunitario para el Envejecimiento").classList.toggle("show");
     }
     if (cod == 34) {
-        document.getElementById("Desarrollo y Gestión Interculturales").classList.toggle("show");
+        document.getElementById("Desarrollo Territorial").classList.toggle("show");
     }
     if (cod == 35) {
-        document.getElementById("Diseño Gráfico").classList.toggle("show");
+        document.getElementById("Desarrollo y Gestión Interculturales").classList.toggle("show");
     }
     if (cod == 36) {
-        document.getElementById("Diseño Industrial").classList.toggle("show");
+        document.getElementById("Diseño Gráfico").classList.toggle("show");
     }
     if (cod == 37) {
-        document.getElementById("Diseño y Escolarizadon Comunicación").classList.toggle("show");
+        document.getElementById("Diseño Industrial").classList.toggle("show");
     }
     if (cod == 38) {
-        document.getElementById("Ecología").classList.toggle("show");
+        document.getElementById("Diseño y Escolarizadon Comunicación").classList.toggle("show");
     }
     if (cod == 39) {
-        document.getElementById("Economía").classList.toggle("show");
+        document.getElementById("Ecología").classList.toggle("show");
     }
     if (cod == 40) {
-        document.getElementById("Economía Industrial").classList.toggle("show");
+        document.getElementById("Economía").classList.toggle("show");
     }
     if (cod == 41) {
-        document.getElementById("Educación Musical").classList.toggle("show");
+        document.getElementById("Economía Industrial").classList.toggle("show");
     }
     if (cod == 42) {
-        document.getElementById("Enfermería").classList.toggle("show");
+        document.getElementById("Educación Musical").classList.toggle("show");
     }
     if (cod == 43) {
-        document.getElementById("Enfermería y Obstetricia").classList.toggle("show");
+        document.getElementById("Enfermería").classList.toggle("show");
     }
     if (cod == 44) {
-        document.getElementById("Enseñanza de Inglés").classList.toggle("show");
+        document.getElementById("Enfermería y Obstetricia").classList.toggle("show");
     }
     if (cod == 45) {
-        document.getElementById("Enseñanza de Alemán como Lengua Extranjera").classList.toggle("show");
+        document.getElementById("Enseñanza de Inglés").classList.toggle("show");
     }
     if (cod == 46) {
-        document.getElementById("Enseñanza de Español como Lengua Extranjera").classList.toggle("show");
+        document.getElementById("Enseñanza de Alemán como Lengua Extranjera").classList.toggle("show");
     }
     if (cod == 47) {
-        document.getElementById("Enseñanza de Francés como Lengua Extranjera").classList.toggle("show");
+        document.getElementById("Enseñanza de Español como Lengua Extranjera").classList.toggle("show");
     }
     if (cod == 48) {
-        document.getElementById("Enseñanza de Inglés como Lengua Extranjera").classList.toggle("show");
+        document.getElementById("Enseñanza de Francés como Lengua Extranjera").classList.toggle("show");
     }
     if (cod == 49) {
-        document.getElementById("Enseñanza de Italiano como Lengua Extranjera").classList.toggle("show");
+        document.getElementById("Enseñanza de Inglés como Lengua Extranjera").classList.toggle("show");
     }
     if (cod == 50) {
-        document.getElementById("Estudios Latinoamericanos").classList.toggle("show");
+        document.getElementById("Enseñanza de Italiano como Lengua Extranjera").classList.toggle("show");
     }
     if (cod == 51) {
-        document.getElementById("Estudios Sociales y Gestión Local").classList.toggle("show");
+        document.getElementById("Estudios Latinoamericanos").classList.toggle("show");
     }
     if (cod == 52) {
-        document.getElementById("Etnomusicología").classList.toggle("show");
+        document.getElementById("Estudios Sociales y Gestión Local").classList.toggle("show");
     }
     if (cod == 53) {
-        document.getElementById("Farmacia").classList.toggle("show");
+        document.getElementById("Etnomusicología").classList.toggle("show");
     }
     if (cod == 54) {
-        document.getElementById("Filosofía").classList.toggle("show");
+        document.getElementById("Farmacia").classList.toggle("show");
     }
     if (cod == 55) {
-        document.getElementById("Física").classList.toggle("show");
+        document.getElementById("Filosofía").classList.toggle("show");
     }
     if (cod == 56) {
-        document.getElementById("Física Biomédica").classList.toggle("show");
+        document.getElementById("Física").classList.toggle("show");
     }
     if (cod == 57) {
-        document.getElementById("Fisioterapia").classList.toggle("show");
+        document.getElementById("Física Biomédica").classList.toggle("show");
     }
     if (cod == 58) {
-        document.getElementById("Geociencias").classList.toggle("show");
+        document.getElementById("Fisioterapia").classList.toggle("show");
     }
     if (cod == 59) {
-        document.getElementById("Geografía").classList.toggle("show");
+        document.getElementById("Geociencias").classList.toggle("show");
     }
     if (cod == 60) {
-        document.getElementById("Geografía Aplicada").classList.toggle("show");
+        document.getElementById("Geografía").classList.toggle("show");
     }
     if (cod == 61) {
-        document.getElementById("Geohistoria").classList.toggle("show");
+        document.getElementById("Geografía Aplicada").classList.toggle("show");
     }
     if (cod == 62) {
-        document.getElementById("Historia").classList.toggle("show");
+        document.getElementById("Geohistoria").classList.toggle("show");
     }
     if (cod == 63) {
-        document.getElementById("Historia del Arte").classList.toggle("show");
+        document.getElementById("Historia").classList.toggle("show");
     }
     if (cod == 64) {
-        document.getElementById("Informática").classList.toggle("show");
+        document.getElementById("Historia del Arte").classList.toggle("show");
     }
     if (cod == 65) {
-        document.getElementById("Ingeniería Aeroespacial").classList.toggle("show");
+        document.getElementById("Informática").classList.toggle("show");
     }
     if (cod == 66) {
-        document.getElementById("Ingeniería Agrícola").classList.toggle("show");
+        document.getElementById("Ingeniería Aeroespacial").classList.toggle("show");
     }
     if (cod == 67) {
-        document.getElementById("Ingeniería Ambiental").classList.toggle("show");
+        document.getElementById("Ingeniería Agrícola").classList.toggle("show");
     }
     if (cod == 68) {
-        document.getElementById("Ingeniería Civil").classList.toggle("show");
+        document.getElementById("Ingeniería Ambiental").classList.toggle("show");
     }
     if (cod == 69) {
-        document.getElementById("Ingeniería de Minas Facultad de Ingeniería y Metalurgía").classList.toggle("show");
+        document.getElementById("Ingeniería Civil").classList.toggle("show");
     }
     if (cod == 70) {
-        document.getElementById("Ingeniería Eléctrica y Electrónica").classList.toggle("show");
+        document.getElementById("Ingeniería de Minas Facultad de Ingeniería y Metalurgía").classList.toggle("show");
     }
     if (cod == 71) {
-        document.getElementById("Ingeniería en Alimentos").classList.toggle("show");
+        document.getElementById("Ingeniería Eléctrica y Electrónica").classList.toggle("show");
     }
     if (cod == 72) {
-        document.getElementById("Ingeniería en Computación").classList.toggle("show");
+        document.getElementById("Ingeniería en Alimentos").classList.toggle("show");
     }
     if (cod == 73) {
-        document.getElementById("Ingeniería en Energías Renovables").classList.toggle("show");
+        document.getElementById("Ingeniería en Computación").classList.toggle("show");
     }
     if (cod == 74) {
-        document.getElementById("Ingeniería en Sistemas Biomédicos").classList.toggle("show");
+        document.getElementById("Ingeniería en Energías Renovables").classList.toggle("show");
     }
     if (cod == 75) {
-        document.getElementById("Ingeniería en Telecomunicaciones").classList.toggle("show");
+        document.getElementById("Ingeniería en Sistemas Biomédicos").classList.toggle("show");
     }
     if (cod == 76) {
-        document.getElementById("Ingeniería en Telecomunicaciones, Sistemas y Electrónica").classList.toggle("show");
+        document.getElementById("Ingeniería en Telecomunicaciones").classList.toggle("show");
     }
     if (cod == 77) {
-        document.getElementById("Ingeniería Geofísica").classList.toggle("show");
+        document.getElementById("Ingeniería en Telecomunicaciones, Sistemas y Electrónica").classList.toggle("show");
     }
     if (cod == 78) {
-        document.getElementById("Ingeniería Geológica").classList.toggle("show");
+        document.getElementById("Ingeniería Geofísica").classList.toggle("show");
     }
     if (cod == 79) {
-        document.getElementById("Ingeniería Geomática").classList.toggle("show");
+        document.getElementById("Ingeniería Geológica").classList.toggle("show");
     }
     if (cod == 80) {
+        document.getElementById("Ingeniería Geomática").classList.toggle("show");
+    }
+    if (cod == 81) {
         document.getElementById("Ingeniería Industrial").classList.toggle("show");
     }
     //aqui voy
-    if (cod == 81) {
+    if (cod == 82) {
         document.getElementById("Ingeniería Mecánica").classList.toggle("show");
     }
-    if (cod == 82) {
+    if (cod == 83) {
         document.getElementById("Ingeniería Mecánica Eléctrica").classList.toggle("show");
     }
-    if (cod == 83) {
+    if (cod == 84) {
         document.getElementById("Ingeniería Mecatrónica").classList.toggle("show");
     }
-    if (cod == 84) {
+    if (cod == 85) {
         document.getElementById("Ingeniería Petrolera").classList.toggle("show");
     }
-    if (cod == 85) {
+    if (cod == 86) {
         document.getElementById("Ingeniería Química").classList.toggle("show");
     }
-    if (cod == 86) {
+    if (cod == 87) {
         document.getElementById("Ingeniería Química Metalúrgica").classList.toggle("show");
     }
-    if (cod == 87) {
+    if (cod == 88) {
         document.getElementById("Instrumentista").classList.toggle("show");
     }
-    if (cod == 88) {
+    if (cod == 89) {
         document.getElementById("Investigación Biomédica Básica").classList.toggle("show");
     }
-    if (cod == 89) {
+    if (cod == 90) {
         document.getElementById("Lengua y Literaturas Hispánicas").classList.toggle("show");
     }
-    if (cod == 90) {
+    if (cod == 91) {
         document.getElementById("Lengua y Literaturas Modernas (Letras Alemanas)").classList.toggle("show");
     }
-    if (cod == 91) {
+    if (cod == 92) {
         document.getElementById("Lengua y Literaturas Modernas (Letras Francesas)").classList.toggle("show");
     }
-    if (cod == 92) {
+    if (cod == 93) {
         document.getElementById("Lengua y Literaturas Modernas (Letras Inglesas)").classList.toggle("show");
     }
-    if (cod == 93) {
+    if (cod == 94) {
         document.getElementById("Lengua y Literaturas Modernas (Letras Italianas)").classList.toggle("show");
     }
-    if (cod == 94) {
+    if (cod == 95) {
         document.getElementById("Lengua y Literaturas Modernas (Letras Portuguesas)").classList.toggle("show");
     }
-    if (cod == 95) {
+    if (cod == 96) {
         document.getElementById("Letras Clásicas").classList.toggle("show");
     }
-    if (cod == 96) {
+    if (cod == 97) {
         document.getElementById("Lingüística Aplicada").classList.toggle("show");
     }
-    if (cod == 97) {
+    if (cod == 98) {
         document.getElementById("Literatura Dramática y Teatro").classList.toggle("show");
     }
-    if (cod == 98) {
+    if (cod == 99) {
         document.getElementById("Literatura Intercultural").classList.toggle("show");
     }
-    if (cod == 99) {
+    if (cod == 100) {
         document.getElementById("Manejo Sustentable de Zonas Costeras").classList.toggle("show");
     }
-    if (cod == 100) {
+    if (cod == 101) {
         document.getElementById("Matemáticas").classList.toggle("show");
     }
-    if (cod == 101) {
+    if (cod == 102) {
         document.getElementById("Matemáticas Aplicadas").classList.toggle("show");
     }
-    if (cod == 102) {
+    if (cod == 103) {
         document.getElementById("Matemáticas Aplicadas y Computación").classList.toggle("show");
     }
-    if (cod == 103) {
+    if (cod == 104) {
         document.getElementById("Medicina Veterinaria y Zootecnia").classList.toggle("show");
     }
-    if (cod == 104) {
+    if (cod == 105) {
         document.getElementById("Médico Cirujano").classList.toggle("show");
     }
-    if (cod == 105) {
+    if (cod == 106) {
         document.getElementById("Música y Tecnología Artística").classList.toggle("show");
     }
-    if (cod == 106) {
+    if (cod == 107) {
         document.getElementById("Nanotecnología").classList.toggle("show");
     }
-    if (cod == 107) {
+    if (cod == 108) {
         document.getElementById("Negocios Internacionales").classList.toggle("show");
     }
-    if (cod == 108) {
+    if (cod == 109) {
         document.getElementById("Neurociencias").classList.toggle("show");
     }
-    if (cod == 109) {
+    if (cod == 110) {
         document.getElementById("Nutriología").classList.toggle("show");
     }
-    if (cod == 110) {
+    if (cod == 111) {
         document.getElementById("Odontología").classList.toggle("show");
     }
-    if (cod == 111) {
+    if (cod == 112) {
         document.getElementById("Optometría").classList.toggle("show");
     }
-    if (cod == 112) {
+    if (cod == 113) {
         document.getElementById("Órtesis y Prótesis").classList.toggle("show");
     }
-    if (cod == 113) {
+    if (cod == 114) {
         document.getElementById("Pedagogía").classList.toggle("show");
     }
-    if (cod == 114) {
+    if (cod == 115) {
         document.getElementById("Piano").classList.toggle("show");
     }
-    if (cod == 115) {
+    if (cod == 116) {
         document.getElementById("Planificación para el Desarrollo Agropecuario").classList.toggle("show");
     }
-    if (cod == 116) {
+    if (cod == 117) {
         document.getElementById("Psicología").classList.toggle("show");
     }
-    if (cod == 117) {
+    if (cod == 118) {
         document.getElementById("Química").classList.toggle("show");
     }
-    if (cod == 118) {
+    if (cod == 119) {
         document.getElementById("Química de Alimentos").classList.toggle("show");
     }
-    if (cod == 119) {
+    if (cod == 120) {
         document.getElementById("Química e Ingeniería en Materiales").classList.toggle("show");
     }
-    if (cod == 120) {
+    if (cod == 121) {
         document.getElementById("Química Farmacéutico Biológica").classList.toggle("show");
     }
-    if (cod == 121) {
+    if (cod == 122) {
         document.getElementById("Química Industrial").classList.toggle("show");
     }
-    if (cod == 122) {
+    if (cod == 123) {
         document.getElementById("Relaciones Internacionales").classList.toggle("show");
     }
-    if (cod == 123) {
+    if (cod == 124) {
         document.getElementById("Sociología").classList.toggle("show");
     }
-    if (cod == 124) {
+    if (cod == 125) {
         document.getElementById("Teatro y Actuación").classList.toggle("show");
     }
-    if (cod == 125) {
+    if (cod == 126) {
         document.getElementById("Tecnología").classList.toggle("show");
     }
-    if (cod == 126) {
+    if (cod == 127) {
         document.getElementById("Tecnologías para la Información en Ciencias").classList.toggle("show");
     }
-    if (cod == 127) {
+    if (cod == 128) {
         document.getElementById("Trabajo Social").classList.toggle("show");
     }
-    if (cod == 128) {
+    if (cod == 129) {
         document.getElementById("Traducción").classList.toggle("show");
     }
-    if (cod == 129) {
+    if (cod == 130) {
         document.getElementById("Turismo y Desarrollo Sostenible").classList.toggle("show");
     }
-    if (cod == 130) {
+    if (cod == 131) {
         document.getElementById("Urbanismo").classList.toggle("show");
     }
 }
