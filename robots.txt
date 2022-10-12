@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: /formularios/
+Disallow: /guias/
+Disallow: /convocatorias/
+Disallow: /word/
+
+Sitemap: https://convocatoriaunam.com.mx/sitemap.xml

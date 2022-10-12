@@ -19,13 +19,13 @@ function MostrarSeleccionado() {
         document.getElementById("arquitectura").classList.toggle("show");
     }
     if (cod == 7) {
-        document.getElementById("arquitecturadelpaisaje").classList.toggle("show");
+        document.getElementById("arquitectura del paisaje").classList.toggle("show");
     }
     if (cod == 8) {
-        document.getElementById("artesvisuales").classList.toggle("show");
+        document.getElementById("artes visuales").classList.toggle("show");
     }
     if (cod == 9) {
-        document.getElementById("arteydiseño").classList.toggle("show");
+        document.getElementById("arte y diseño").classList.toggle("show");
     }
     if (cod == 10) {
         document.getElementById("Bibliotecología y Estudios de la Información").classList.toggle("show");
