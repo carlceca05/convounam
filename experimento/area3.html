@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleA3-1.css">
+    <link rel="stylesheet" href="https://unidior.com/offerAlertStyle.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <title>Examen UNAM | Área 3</title>
+</head>
+<body>
+    <div class="overheader hide">
+        <header id="header" class="header">
+            <div class="header-wrapper">
+                
+                <nav class="nav">
+                    <div class="main-logo">
+                        <img src="https://unidior.com/unidior2.png" alt="" class="logo">
+                    </div>
+                    <div class="c-body">
+                        <div class="c-time">
+                            <div class="screen">
+                                <span id="time">00:00:00.00</span>
+                            </div>          
+                        </div>        
+                    </div>
+                </nav>
+        </div> 
+        </header>
+    </div>
+            <div class="popupBox">
+        <div class="popupBox__content">
+          <div class="close"></div>
+          <div class="popupBox__img">
+            <img src="https://cdn.pixabay.com/photo/2021/09/21/02/48/gift-6642306__480.png" alt="" />
+          </div>
+          <div class="popupBox__contentTwo">
+            <div>
+              <h3 class="popupBox__title">Entra a un Plan</h3>
+              <h2 class="popupBox__titleTwo">60 <sup>%</sup><span> Off</span></h2>
+              <p class="popupBox__description">
+                ¿Quieres más exámenes y más preguntas? Contrata un plan para tener acceso hasta 8 exámenes y cientos de preguntas más.
+              </p>
+              <a href="https://unidior.com/elegir-plan1" class="popupBox__btn">Contrata un Plan</a>
+            </div>
+          </div> 
+        </div>
+      </div>
+            <div class="popupBox">
+        <div class="popupBox__content">
+          <div class="close"></div>
+          <div class="popupBox__img">
+            <img src="https://cdn.pixabay.com/photo/2021/09/21/02/48/gift-6642306__480.png" alt="" />
+          </div>
+          <div class="popupBox__contentTwo">
+            <div>
+              <h3 class="popupBox__title">Entra a un Plan</h3>
+              <h2 class="popupBox__titleTwo">60 <sup>%</sup><span> Off</span></h2>
+              <p class="popupBox__description">
+                ¿Quieres más exámenes y más preguntas? Contrata un plan para tener acceso hasta 8 exámenes y cientos de preguntas más.
+              </p>
+              <a href="https://unidior.com/elegir-plan1" class="popupBox__btn">Contrata un Plan</a>
+            </div>
+          </div> 
+        </div>
+      </div>
+          <div class="examContainer">
+        <div class="home-box">
+            <div class="homeTitle">
+                <p>Examen UNAM <span>Área 3</span></p>
+            </div>
+            <div class="homeContainer">
+                <p>Número total de preguntas: <span>120</span> </p>
+                <p>Tiempo máximo: <span>3:00 hrs</span></p>
+                <div class="cronometro">
+                    <p>Cronómetro:</p>
+                    <div class="inputc">
+                        <input type="radio" name="clock" id="" checked>
+                        <span>Sí</span>
+                        <input type="radio" name="clock" id="no-c" disabled>
+                        <span>No</span>
+                        No
+                    </div>
+                </div>
+            </div>
+            <div class="buttondx">
+                <button onclick="testStart()">Iniciar</button>
+            </div>
+        </div>
+        <div class="containerMain hide">
+            <h1>Examen UNAM <span>Área 3</span></h1>
+        <section id="juego">
+    
+        </section>
+    
+        <button  id="corregir" onclick="corregirxd()">Resultado</button>
+        <div class="buttonfinal hide">
+            <div class="buttonpop">
+                <button id="buttonfinal" class="" onclick="location.reload()">Intentar de nuevo</button>
+            <a id="buttonfinal" href="https://unidior.com/materias" target="_blank"><button>Repasar materias</button></a>
+            </div>
+        </div>
+    
+        </div>
+        <div class="result-box hide">
+            <div class="homeTitlexd" id="homeTitle">
+            </div>
+            <div class="buttonxd">
+                <button onclick="verRespuesta()">Ver respuestas</button>
+                <button onclick="location.reload()">Intentar de nuevo</button>
+            </div>
+        </div>
+    </div>
+    <script src="appA3.js"></script>
+    <script type="text/javascript">
+        const header = document.getElementById('header');
+        var lastScrollY = 0;
+        window.addEventListener('scroll', function (){
+        var currentScrollY = window.scrollY;
+        if (currentScrollY > 1) {
+            if (currentScrollY > lastScrollY) {
+                header.classList.add('header--scroll-down');
+                header.classList.remove('header--scroll-up');
+            } else {
+                header.classList.remove('header--scroll-down');
+                header.classList.add('header--scroll-up');
+            }
+            
+                lastScrollY = currentScrollY;
+            } else {
+                header.classList.remove('header--scroll-up');
+            }
+        });
+     </script>
+             <script  src="https://unidior.com/offerAlertApp.js"></script>
+                  <script  src="https://unidior.com/offerAlertApp.js"></script>
+     </body>
+</html>
