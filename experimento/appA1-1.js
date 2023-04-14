@@ -29,7 +29,7 @@ const bd_juego = [
     },
     {
         id:3,
-        pregunta:"Â¿Qué modo discursivo predomina en el siguiente ejemplo?: 'El libro comprende tres capí­tulos, con cinco subtemas cada uno. Sin embargo, no tiene consistencia. Esto se corrobora, en primer lugar, porque carece de un apartado de conclusiones. En segundo lugar, no cita las fuentes bibliográficas en las que se apoya. Esto hace que el texto sea de poco fiar.'",
+        pregunta:"¿Qué modo discursivo predomina en el siguiente ejemplo?: 'El libro comprende tres capí­tulos, con cinco subtemas cada uno. Sin embargo, no tiene consistencia. Esto se corrobora, en primer lugar, porque carece de un apartado de conclusiones. En segundo lugar, no cita las fuentes bibliográficas en las que se apoya. Esto hace que el texto sea de poco fiar.'",
         op0:"Enumeración.",
         op1:"Descripción.",
         op2:"Argumentación.",
@@ -101,7 +101,7 @@ const bd_juego = [
         pregunta:"Hay un SUJETO TíCITO O IMPLíCITO en:",
         op0:"Somos nada frente a la muerte infausta.",
         op1:"Feliz aquél que busca a Dios en sí­ mismo.",
-        op2:"Â¡Señor!, tiembla mi alma ante tu grandeza.",
+        op2:"¡Señor!, tiembla mi alma ante tu grandeza.",
         op3:"Yo he subido más alto, mucho más alto.",
         correcta:"0"
     },
@@ -216,7 +216,7 @@ const bd_juego = [
     },
     {
         id:23,
-        pregunta:"Si S = {1, 2} y Q = {2, 3, 4}, Â¿cuál es el rango de la función f: S â†’ Q definida por f(x) = x + 1?",
+        pregunta:"Si S = {1, 2} y Q = {2, 3, 4}, ¿Cuál es el rango de la función f: S - Q definida por f(x) = x + 1?",
         op0:"{2, 3}",
         op1:"{2, 4}",
         op2:"{1, 3}",
@@ -225,7 +225,7 @@ const bd_juego = [
     },
     {
         id:24,
-        pregunta:"Â¿Cuál es la longitud del lado q en el siguiente triángulo?",
+        pregunta:"¿Cuál es la longitud del lado q en el siguiente triángulo?",
         op0:"-6",
         op1:"6",
         op2:"9",
@@ -300,7 +300,7 @@ const bd_juego = [
     },
     {
         id:32,
-        pregunta:"Â¿Cuál es la ecuación de una elipse horizontal con centro en (2, 1)?",
+        pregunta:"¿Cuál es la ecuación de una elipse horizontal con centro en (2, 1)?",
         op0:"((x-2)^2 /64) + ((y-1)^2 /144 = 1)",
         op1:"((x-2)^2 /144) + ((y-1)^2 /64 = 1)",
         op2:"((x+2)^2 /144) + ((y+1)^2 /64 = 1)",
@@ -318,7 +318,7 @@ const bd_juego = [
     },
     {
         id:34,
-        pregunta:"De las siguientes ecuaciones, Â¿cuál representa una hipérbola que pasa por el punto A(-8, 0) y B(8, 0)?",
+        pregunta:"De las siguientes ecuaciones, ¿Cuál representa una hipérbola que pasa por el punto A(-8, 0) y B(8, 0)?",
         op0:"x^2 -64y^2 -8 = 0",
         op1:"x^2 -8y^2 -62 = 0",
         op2:"x^2 -y^2 -8x -12y -1 = 0",
@@ -354,7 +354,7 @@ const bd_juego = [
     },
     {
         id:38,
-        pregunta:"Â¿Cuál es el resultado?",
+        pregunta:"¿Cuál es el resultado?",
         op0:"-1",
         op1:"0",
         op2:"1",
@@ -392,7 +392,7 @@ const bd_juego = [
     },
     {
         id:42,
-        pregunta:"Â¿Cuál es la integral definida?",
+        pregunta:"¿Cuál es la integral definida?",
         op0:"2",
         op1:"3",
         op2:"6",
@@ -440,7 +440,7 @@ const bd_juego = [
     },
     {
         id:47,
-        pregunta:"Sobre un cuerpo se aplicaron diferentes fuerzas en dirección horizontal y con el mismo sentido, provocando que el objeto experimentara distintas aceleraciones. Basándote en la gráfica de los resultados obtenidos y despreciando la acción ejercida por la fricción entre el objeto y la superficie de contacto, Â¿cuál es la masa del objeto?",
+        pregunta:"Sobre un cuerpo se aplicaron diferentes fuerzas en dirección horizontal y con el mismo sentido, provocando que el objeto experimentara distintas aceleraciones. Basándote en la gráfica de los resultados obtenidos y despreciando la acción ejercida por la fricción entre el objeto y la superficie de contacto, ¿Cuál es la masa del objeto?",
         op0:"1.6 kg",
         op1:"2.5 kg",
         op2:"3.2 kg",
@@ -459,7 +459,7 @@ const bd_juego = [
     },
     {
         id:49,
-        pregunta:"Una bala de cañón de 7.0 kg se dispara verticalmente hacia arriba con una rapidez de 120 m/s. Â¿Cuánta energí­a cinética tiene al salir y cuánta energí­a potencial tiene en el punto más alto de la trayectoria?",
+        pregunta:"Una bala de cañón de 7.0 kg se dispara verticalmente hacia arriba con una rapidez de 120 m/s. ¿Cuánta energí­a cinética tiene al salir y cuánta energí­a potencial tiene en el punto más alto de la trayectoria?",
         op0:"50,400 J, 50,400 J",
         op1:"420 J, 420 J",
         op2:"50,400 J, cero J",
@@ -495,7 +495,7 @@ const bd_juego = [
     },
     {
         id:53,
-        pregunta:"Una onda formada en una cuerda tiene una longitud de onda de 10 cm y un periodo de 2 s, Â¿con qué velocidad se propaga?",
+        pregunta:"Una onda formada en una cuerda tiene una longitud de onda de 10 cm y un periodo de 2 s, ¿con qué velocidad se propaga?",
         op0:"20.00 cm/s",
         op1:"0.25 cm/s",
         op2:"5.00 cm/s",
@@ -540,7 +540,7 @@ const bd_juego = [
     },
     {
         id:58,
-        pregunta:"El í­ndice de refracción del cuarzo es 1.544. Â¿Con qué velocidad se propaga la luz en él?",
+        pregunta:"El í­ndice de refracción del cuarzo es 1.544. ¿Con qué velocidad se propaga la luz en él?",
         op0:"194,300 Km/s",
         op1:"19,430 Km/s",
         op2:"1,943 Km/s",
@@ -549,7 +549,7 @@ const bd_juego = [
     },
     {
         id:59,
-        pregunta:"Â¿En qué áreas recibió Madame Curie el premio Nobel?",
+        pregunta:"¿En qué áreas recibió Madame Curie el premio Nobel?",
         op0:"Fí­sica y Biologí­a.",
         op1:"Medicina y Quí­mica.",
         op2:"Quí­mica y Biologí­a.",
@@ -558,7 +558,7 @@ const bd_juego = [
     },
     {
         id:60,
-        pregunta:"Â¿Cuál es el enunciado verdadero?",
+        pregunta:"¿Cuál es el enunciado verdadero?",
         op0:"El aire es un compuesto y el cloruro de sodio es una mezcla.",
         op1:"El cloruro de sodio es un elemento y la plata es un compuesto.",
         op2:"El aire es una mezcla y la plata es un compuesto.",
@@ -631,19 +631,19 @@ const bd_juego = [
     {
         id:68,
         pregunta:"El nitrógeno reacciona con el oxí­geno en el motor de un automóvil para formar monóxido de nitrógeno (NO) y dióxido de nitrógeno (NO2). Las ecuaciones balanceadas que representan las reacciones son:",
-        op0:"N2 + O2 â†’ NO | N2 + O2 â†’ NO2",
-        op1:"N + O â†’ NO | 2N + 2O â†’ NO2",
-        op2:"N2 + O2  â†’ 2NO | N2 + O2 â†’ 2NO2",
-        op3:"N2 + O2  â†’ 2NO | N2 + 2O2 â†’ 2NO2",
+        op0:"N2 + O2 - NO | N2 + O2 - NO2",
+        op1:"N + O - NO | 2N + 2O - NO2",
+        op2:"N2 + O2  - 2NO | N2 + O2 - 2NO2",
+        op3:"N2 + O2  - 2NO | N2 + 2O2 - 2NO2",
         correcta:"3"
     },
     {
         id:69,
-        pregunta:"Para la formación de un mol de cada uno de los siguientes gases a partir de sus elementos, Â¿cuál reacción es la más exotérmica?",
-        op0:"CO âˆ†HÂº = -110.5kJ / mol",
-        op1:"NO2 âˆ†HÂº = +33.2kJ / mol",
-        op2:"SO2 âˆ†HÂº = -296.8kJ / mol",
-        op3:"SO3 âˆ†HÂº = -395.7kJ / mol",
+        pregunta:"Para la formación de un mol de cada uno de los siguientes gases a partir de sus elementos, ¿Cuál reacción es la más exotérmica?",
+        op0:"CO âˆ†Hº = -110.5kJ / mol",
+        op1:"NO2 âˆ†Hº = +33.2kJ / mol",
+        op2:"SO2 âˆ†Hº = -296.8kJ / mol",
+        op3:"SO3 âˆ†Hº = -395.7kJ / mol",
         correcta:"3"
     },
     {
@@ -684,7 +684,7 @@ const bd_juego = [
     },
     {
         id:74,
-        pregunta:"Â¿Cuál o cuáles de las siguientes son ventajas biológicas de la reproducción sexual?",
+        pregunta:"¿Cuál o cuáles de las siguientes son ventajas biológicas de la reproducción sexual?",
         op0:"III",
         op1:"I y II",
         op2:"I, II y III",
@@ -712,7 +712,7 @@ const bd_juego = [
     },
     {
         id:77,
-        pregunta:"Â¿Cuál es la premisa de la Teorí­a de Lamarck sobre la evolución de las especies?",
+        pregunta:"¿Cuál es la premisa de la Teorí­a de Lamarck sobre la evolución de las especies?",
         op0:"La selección natural y la mutación son las causas de la evolución de las especies.",
         op1:"Los organismos actuales son el resultado de un largo proceso de adaptación y selección.",
         op2:"Los organismos mejor adaptados son los que dejan mayor número de descendientes.",
@@ -867,7 +867,7 @@ const bd_juego = [
     },
     {
         id:94,
-        pregunta:"Â¿Cómo se llamó el grupo polí­tico que destacó durante el gobierno de Porfirio Dí­az?",
+        pregunta:"¿Cómo se llamó el grupo polí­tico que destacó durante el gobierno de Porfirio Dí­az?",
         op0:"Los liberales.",
         op1:"Los Contemporáneos.",
         op2:"Los Cientí­ficos.",
@@ -1011,7 +1011,7 @@ const bd_juego = [
     },
     {
         id:110,
-        pregunta:"Si en el huso horario 0Â° son las 20:00 horas, Â¿qué hora será en la Ciudad de Tijuana, México, cuyo huso horario es de 120Â° W?",
+        pregunta:"Si en el huso horario 0° son las 20:00 horas, ¿qué hora será en la Ciudad de Tijuana, México, cuyo huso horario es de 120° W?",
         op0:"10:00 hrs.",
         op1:"11:00 hrs.",
         op2:"12:00 hrs.",
@@ -1249,7 +1249,7 @@ function corregirxd(){
     }
     const resultadoP = document.getElementById("homeTitle");
     parrafoxd = document.createElement("h1");
-    parrafoxd.textContent = 'Â¡Obtuviste ' + cantiCorrectas + '/120!'
+    parrafoxd.textContent = '¡Obtuviste ' + cantiCorrectas + '/120!'
     resultadoP.appendChild(parrafoxd);
 }
 
