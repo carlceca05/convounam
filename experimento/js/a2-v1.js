@@ -374,7 +374,7 @@ const bd_juego_lit = [
     },
     {
         id:16,
-        pregunta:"En un texto dramático Â¿Qué personaje se opone al personaje principal?",
+        pregunta:"En un texto dramático ¿Qué personaje se opone al personaje principal?",
         op0:"A) Protagonista",
         op1:"B) Secundario",
         op2:"C) Ambiental",
@@ -392,16 +392,16 @@ const bd_juego_lit = [
     },
     {
         id:18,
-        pregunta:"Â¿Cuáles son las caracterí­sticas propias de la literatura contemporánea?  I-sus personajes tienen conflictos morales, psicológicos, sexuales y emocionales  II- describe fotográficamente mezclando elementos cotidianos con el realismo mágico  III- pedro paramo y rayuela son algunas de sus obras caracterí­sticas  IV-esta generación literaria es exclusivamente española  V- se opone a la crudeza de naturalismo  VI- exaltación de yo, subjetivismo",
-        op0:"A) I,III,V",
-        op1:"B) II,V,VI",
-        op2:"C) I,II,III",
-        op3:"D) I,III,VI",
+        pregunta:"¿Cuáles son las caracterí­sticas propias de la literatura contemporánea?  I-sus personajes tienen conflictos morales, psicológicos, sexuales y emocionales  II- describe fotográficamente mezclando elementos cotidianos con el realismo mágico  III- pedro paramo y rayuela son algunas de sus obras caracterí­sticas  IV-esta generación literaria es exclusivamente española  V- se opone a la crudeza de naturalismo  VI- exaltación de yo, subjetivismo",
+        op0:"A) I, III, V",
+        op1:"B) II, V, VI",
+        op2:"C) I, II, III",
+        op3:"D) I, III, VI",
         correcta:"2"
     },
     {
         id:19,
-        pregunta:"Â¿Qué tipo de ficha es?: Revueltas, José â€œla literaturaâ€ envuelta vol. 1. Número 2. Pág. 6-7",
+        pregunta:"¿Qué tipo de ficha es?: Revueltas, José 'la literatura' envuelta vol. 1. Número 2. Pág. 6-7",
         op0:"A) Ficha bibliográfica",
         op1:"B) Ficha Hemerográfica",
         op2:"C) Cita textual",
@@ -439,7 +439,7 @@ const bd_juego_qui = [
     },
     {
         id:23,
-        pregunta:"Cuál es el ácido más fuerte",
+        pregunta:"¿Cuál es el ácido más fuerte?",
         op0:"A) NH4CL",
         op1:"B) H2SO4",
         op2:"C) CH3-COOH",
@@ -448,7 +448,7 @@ const bd_juego_qui = [
     },
     {
         id:24,
-        pregunta:"Si el número atómico de un elemento es 25 y su masa atómica es 55, Â¿Cuántos protones, electrones, neutrones contiene?",
+        pregunta:"Si el número atómico de un elemento es 25 y su masa atómica es 55, ¿Cuántos protones, electrones, neutrones contiene?",
         op0:"A) P=25, e= 25, n=30",
         op1:"B) P=30 e= 25, n=25",
         op2:"C) P=25, e=30 n= 25",
@@ -457,7 +457,7 @@ const bd_juego_qui = [
     },
     {
         id:25,
-        pregunta:"Qué condiciones favorecen la siguiente reacción CH4 + 2O2 => CO2 + H2O",
+        pregunta:"¿Qué condiciones favorecen la siguiente reacción CH4 + 2O2 => CO2 + H2O?",
         op0:"A) 50 atm",
         op1:"B) 30atm",
         op2:"C) 15atm",
@@ -466,7 +466,7 @@ const bd_juego_qui = [
     },
     {
         id:26,
-        pregunta:"Â¿Cuál es un oxido básico?",
+        pregunta:"¿Cuál es un oxido básico?",
         op0:"A) CO2",
         op1:"B) NO2",
         op2:"C) SO3",
@@ -475,7 +475,7 @@ const bd_juego_qui = [
     },
     {
         id:27,
-        pregunta:"Â¿Cuál es a función de los lí­pidos?",
+        pregunta:"¿Cuál es a función de los lí­pidos?",
         op0:"A) Reserva de energí­a a corto plazo",
         op1:"B) Reserva de energí­a a largo pazo",
         op2:"C) Que se aprovechan todas sus carias",
@@ -484,7 +484,7 @@ const bd_juego_qui = [
     },
     {
         id:28,
-        pregunta:"Â¿Cuál de los siguientes tiene una hibridación SP?",
+        pregunta:"¿Cuál de los siguientes tiene una hibridación SP?",
         op0:"A) Hexano",
         op1:"B) Buteno",
         op2:"C) Propano",
@@ -493,7 +493,7 @@ const bd_juego_qui = [
     },
     {
         id:29,
-        pregunta:"De la siguiente configuración electrónica 1s22s22p4 Â¿Cuántos electrones faltan para llegar a la familia de los gases nobles",
+        pregunta:"De la siguiente configuración electrónica 1s22s22p4 ¿Cuántos electrones faltan para llegar a la familia de los gases nobles",
         op0:"A) Sumarle 4 electrones",
         op1:"B) Restarle 2 electrones",
         op2:"C) Sumarle 2 electrones",
@@ -517,11 +517,11 @@ const bd_juego_qui = [
         op2:"C) I-de, II,bf, III, ca",
         op3:"D) I-bc, II-ab, III-fe",
         correcta:"0",
-        img:"bacteria.png"
+        img:"img/bacteria.png"
     },
     {
         id:32,
-        pregunta:"Â¿Cuál es el número de oxidación de carbono en CaCO3?",
+        pregunta:"¿Cuál es el número de oxidación de carbono en CaCO3?",
         op0:"A) -4",
         op1:"B) 4",
         op2:"C) 2",
@@ -530,7 +530,7 @@ const bd_juego_qui = [
     },
     {
         id:33,
-        pregunta:"Â¿Qué pasa cuando aumentas a temperatura de un gas?",
+        pregunta:"¿Qué pasa cuando aumentas a temperatura de un gas?",
         op0:"A) Aumenta a energí­a potencia y disminuye la energí­a cinética",
         op1:"B) Disminuye e volumen y a energí­a interna",
         op2:"C) Aumenta e volumen y aumenta la energí­a cinética",
@@ -545,13 +545,13 @@ const bd_juego_qui = [
         op2:"C) I-d, II-c, III-b, IV-a",
         op3:"D) I-c, II-a, III-d, IV-b",
         correcta:"0",
-        img:"diluida.png"
+        img:"img/diluida.png"
     }
 ]
 const bd_juego_geo = [
     {
         id:35,
-        pregunta:"Â¿Qué estudia la Geografí­a?",
+        pregunta:"¿Qué estudia la Geografí­a?",
         op0:"A) Explicar la relación entre los elementos naturales y sociales del medio geográfico",
         op1:"B) Diferenciar las causas y efectos de los hechos y fenómenos geográficos",
         op2:"C) Conocer los efectos terrestres provocados por los fenómenos naturales",
@@ -562,9 +562,9 @@ const bd_juego_geo = [
         id:36,
         pregunta:"Selecciona las caracterí­sticas de paí­ses desarrollados: I-Escaza población infantil II-predominio de actividades primarias III-alto í­ndice de natalidad IV- actividades terciarias V- bajo ingreso per cápita.",
         op0:"A) I, IV",
-        op1:"B) I,II,III",
-        op2:"C) II,IV",
-        op3:"D) I,IV",
+        op1:"B) I, II, III",
+        op2:"C) II, IV",
+        op3:"D) I, IV",
         correcta:"3"
     },
     {
@@ -575,15 +575,15 @@ const bd_juego_geo = [
         op2:"C) I-Cierra nevada, II- Balcanes, III-Rocosas",
         op3:"D) I-Sierra madre, II-Cárpatos, III-Urales",
         correcta:"0",
-        img:"cordillera.png"
+        img:"img/cordillera.png"
     },
     {
         id:38,
-        pregunta:"La población Turca Â¿A qué paí­s de la Unión Europea emigra?",
+        pregunta:"La población Turca ¿A qué paí­s de la Unión Europea emigra?",
         op0:"A) Bélgica",
         op1:"B) Portugal",
         op2:"C) España",
-        op3:"D)Alemania",
+        op3:"D) Alemania",
         correcta:"3"
     },
     {
@@ -612,11 +612,11 @@ const bd_juego_geo = [
         op2:"C) Italia",
         op3:"D) Bélgica",
         correcta:"0",
-        img:"alemania.png"
+        img:"img/alemania.png"
     },
     {
         id:42,
-        pregunta:"Â¿Qué paí­s se creó al separarse Yugoslavia",
+        pregunta:"¿Qué paí­s se creó al separarse Yugoslavia",
         op0:"A) Letonia",
         op1:"B) Republica checa",
         op2:"C) Croacia",
@@ -625,11 +625,11 @@ const bd_juego_geo = [
     },
     {
         id:43,
-        pregunta:"A pesar de la extensión del litoral del pacifico Â¿Qué causa la baja producción de pesca?: I-insuficiencia de puertos II-por la falta de personas para trabajar III-falta de inversión en la pesca IV-por las corrientes marinas frí­as",
+        pregunta:"A pesar de la extensión del litoral del pacifico ¿Qué causa la baja producción de pesca?: I-insuficiencia de puertos II-por la falta de personas para trabajar III-falta de inversión en la pesca IV-por las corrientes marinas frí­as",
         op0:"A) I, II",
-        op1:"B) I,IV",
-        op2:"C) III,IV",
-        op3:"D) I,III",
+        op1:"B) I, IV",
+        op2:"C) III, IV",
+        op3:"D) I, III",
         correcta:"3"
     },
     {
@@ -645,13 +645,13 @@ const bd_juego_geo = [
 const bd_juego_es = [
     {
         id:45,
-        pregunta:"Â¿Cuál es la idea principal del párrafo uno?",
+        pregunta:"¿Cuál es la idea principal del párrafo uno?",
         op0:"A) Darwin tení­a miedo de que sus hijos fueran enfermizos o débiles",
         op1:"B) Darwin y Emma eran primos hermanos",
         op2:"C) Darwin tuvo 10 hijos",
         op3:"D) Que la consanguinidad deteriora las siguientes generaciones",
         correcta:"0",
-        a:"https://unidior.com/esquiz/comprension/lectura3"
+        a:"darwin.html"
     },
     {
         id:46,
@@ -661,41 +661,41 @@ const bd_juego_es = [
         op2:"C) El hijo de Darwin",
         op3:"D) El abuelo de Darwin",
         correcta:"0",
-        a:"https://unidior.com/esquiz/comprension/lectura3"
+        a:"darwin.html"
     },
     {
         id:47,
-        pregunta:"Â¿Qué es la endogamia?",
+        pregunta:"¿Qué es la endogamia?",
         op0:"A) Revisa la consanguinidad en la ascendencia",
         op1:"B) Matrimonio entre hermanos",
         op2:"C) Mermar la fertilidad de los descendientes",
         op3:"D) Una enfermedad hereditaria",
         correcta:"0",
-        a:"https://unidior.com/esquiz/comprension/lectura3"
+        a:"darwin.html"
     },
     {
         id:48,
-        pregunta:"Â¿Quién fue el primero en estudiar los efectos de la endogamia?",
+        pregunta:"¿Quién fue el primero en estudiar los efectos de la endogamia?",
         op0:"A) El naturalista",
         op1:"B) El genetista",
         op2:"C) Los cientí­ficos de la actualidad",
         op3:"D) El padre de Darwin",
         correcta:"0",
-        a:"https://unidior.com/esquiz/comprension/lectura3"
+        a:"darwin.html"
     },
     {
         id:49,
-        pregunta:"Â¿Por qué la dinastí­a Darwin-wedgwood es perfecta para estudiar la endogamia?",
+        pregunta:"¿Por qué la dinastí­a Darwin-wedgwood es perfecta para estudiar la endogamia?",
         op0:"A) Porque estas familias se emparentaron entre ellas durante muchas generaciones",
         op1:"B) Porque Darwin y Emma eran primos hermanos",
         op2:"C) Porque la calidad de su esperma era menor y los hombre de la familia eran menos fértiles",
         op3:"D) Por las condiciones de vida de los Darwin",
         correcta:"0",
-        a:"https://unidior.com/esquiz/comprension/lectura3"
+        a:"darwin.html"
     },
     {
         id:50,
-        pregunta:"Â¿Cuál es la oración con la ortografí­a correcta?: No te de_es re__elar porque las e_idencias no se pueden re_elar",
+        pregunta:"¿Cuál es la oración con la ortografí­a correcta?: No te de_es re__elar porque las e_idencias no se pueden re_elar",
         op0:"A) b, b, v, v",
         op1:"B) b, v, v, b",
         op2:"D) v, b, v, b",
@@ -713,7 +713,7 @@ const bd_juego_es = [
     },
     {
         id:52,
-        pregunta:"El pobre vagabundo recorre la urbe Â¿vagabundo funciona cómo?",
+        pregunta:"El pobre vagabundo recorre la urbe ¿vagabundo funciona cómo?",
         op0:"A) Núcleo del predicado",
         op1:"B) Adjetivo",
         op2:"C) Núcleo del sujeto",
@@ -722,7 +722,7 @@ const bd_juego_es = [
     },
     {
         id:53,
-        pregunta:"Â¿Qué función de la lengua predomina en? 'hombre cohete......araña vuela y rompe su tela'",
+        pregunta:"¿Qué función de la lengua predomina en? 'hombre cohete......araña vuela y rompe su tela'",
         op0:"A) Poética",
         op1:"B) Fática",
         op2:"C) Referencial",
@@ -731,7 +731,7 @@ const bd_juego_es = [
     },
     {
         id:54,
-        pregunta:"En la siguiente oración â€œCerro la puerta con cuidadoâ€ cumple la función de:",
+        pregunta:"En la siguiente oración 'Cerro la puerta con cuidado' cumple la función de:",
         op0:"A) Complemento circunstancial de modo",
         op1:"B) Complemento directo",
         op2:"C) Complemento indirecto",
@@ -740,7 +740,7 @@ const bd_juego_es = [
     },
     {
         id:55,
-        pregunta:"En el siguiente enunciado, identifica la función de las palabras en mayúsculas. Considera el contexto: â€œLa señora Ramí­rez vio vagar sobre los labios de los jefes UNA SONRISAâ€",
+        pregunta:"En el siguiente enunciado, identifica la función de las palabras en mayúsculas. Considera el contexto: 'La señora Ramí­rez vio vagar sobre los labios de los jefes UNA SONRISA'",
         op0:"A) Predicado.",
         op1:"B) Objeto directo.",
         op2:"C) Objeto indirecto.",
@@ -776,7 +776,7 @@ const bd_juego_es = [
     },
     {
         id:59,
-        pregunta:"Â¿Cuál es la redacción correcta?",
+        pregunta:"¿Cuál es la redacción correcta?",
         op0:"A) Habí­an mucha gente en la plaza",
         op1:"B) Hubieron muchos que estaban inconformes",
         op2:"C) Habí­a mucha gente en la plaza",
@@ -856,7 +856,7 @@ const bd_juego_bio = [
         op2:"C) Ib, IIa, IIIe, IVc, Vd",
         op3:"D) Ia, IIb, IIIe, IVc, Vd",
         correcta:"2",
-        img:"mito.png"
+        img:"img/mito.png"
     },
     {
         id:68,
@@ -866,7 +866,7 @@ const bd_juego_bio = [
         op2:"C) Ib, IIc, IIIa",
         op3:"D) Ic, IIa, IIIb",
         correcta:"2",
-        img:"lamark.png"
+        img:"img/lamark.png"
     },
     {
         id:69,
@@ -888,7 +888,7 @@ const bd_juego_bio = [
     },
     {
         id:71,
-        pregunta:"Â¿Cuáles eran las caracterí­sticas de la tierra primitiva?",
+        pregunta:"¿Cuáles eran las caracterí­sticas de la tierra primitiva?",
         op0:"A) Similar a la tierra actual",
         op1:"B) Erupciones volcánicas, tormentas eléctricas y oxigeno de carácter reductor",
         op2:"C) Similar a la tierra actual, con dióxido de carbono y metano",
@@ -897,7 +897,7 @@ const bd_juego_bio = [
     },
     {
         id:72,
-        pregunta:"Â¿En cuál de los siguientes climas hay una mayor variabilidad de especies?",
+        pregunta:"¿En cuál de los siguientes climas hay una mayor variabilidad de especies?",
         op0:"A) Desierto",
         op1:"B) Tundra",
         op2:"C) Estepa",
@@ -935,7 +935,7 @@ const bd_juego_bio = [
 const bd_juego_hu = [
     {
         id:76,
-        pregunta:"Â¿Cuál fue la consecuencia polí­tica de la ilustración?",
+        pregunta:"¿Cuál fue la consecuencia polí­tica de la ilustración?",
         op0:"A) Despotismo ilustrado",
         op1:"B) Absolutismo",
         op2:"C) Ludismo",
@@ -962,7 +962,7 @@ const bd_juego_hu = [
     },
     {
         id:79,
-        pregunta:"Â¿En qué nos ayuda la Historia?",
+        pregunta:"¿En qué nos ayuda la Historia?",
         op0:"A) Para conocer las culturas",
         op1:"B) Para no perder nuestras costumbres y tradiciones",
         op2:"C) A conocer la culturas que se desarrollaron y entender el presente",
@@ -980,7 +980,7 @@ const bd_juego_hu = [
     },
     {
         id:81,
-        pregunta:"Â¿Qué organismo creo la URSS para apoyar económicamente a los paí­ses socialistas?",
+        pregunta:"¿Qué organismo creo la URSS para apoyar económicamente a los paí­ses socialistas?",
         op0:"A) Plan Marshall",
         op1:"B) COMECON",
         op2:"C) KOMINFORM",
@@ -1007,7 +1007,7 @@ const bd_juego_hu = [
     },
     {
         id:84,
-        pregunta:"Â¿Qué ayudó al desarrollo a finales de siglo XX en la tecnologí­a actual?",
+        pregunta:"¿Qué ayudó al desarrollo a finales de siglo XX en la tecnologí­a actual?",
         op0:"A) Biotecnologí­a",
         op1:"B) Robotización",
         op2:"C) Máquina de vapor",
@@ -1033,7 +1033,7 @@ const bd_juego_hm = [
         op2:"C) A1, B2, C3, D4, E5",
         op3:"D) A3, B1, C5, D2, E4",
         correcta:"0",
-        img:"hernan.png"
+        img:"img/hernan.png"
     },
     {
         id:87,
@@ -1055,7 +1055,7 @@ const bd_juego_hm = [
     },
     {
         id:89,
-        pregunta:"Â¿Qué sistema impone el gobierno de Lázaro Cárdenas?",
+        pregunta:"¿Qué sistema impone el gobierno de Lázaro Cárdenas?",
         op0:"A) Unidad nacional",
         op1:"B) Desarrollo estabilizador",
         op2:"C) Presidencialismo",
@@ -1064,16 +1064,16 @@ const bd_juego_hm = [
     },
     {
         id:90,
-        pregunta:"Â¿Cuáles son las caracterí­sticas de gobierno de Adolfo López mateo? I-La comisión nacional del libro de texto gratuito II-Reparto agrario III-Creación de la secretaria de educación publica IV- La devolución del territorio del Chamizal V- La creación del INPI â€œInstituto Nacional de Protección Infantilâ€ VI- La creación del IPN",
-        op0:"A) I,II,III",
-        op1:"B) I,II,IV",
-        op2:"C) I,IV,V",
-        op3:"D) IV,V,VI",
+        pregunta:"¿Cuáles son las caracterí­sticas de gobierno de Adolfo López mateo? I-La comisión nacional del libro de texto gratuito II-Reparto agrario III-Creación de la secretaria de educación publica IV- La devolución del territorio del Chamizal V- La creación del INPI â€œInstituto Nacional de Protección Infantilâ€ VI- La creación del IPN",
+        op0:"A) I, II, III",
+        op1:"B) I, II, IV",
+        op2:"C) I, IV, V",
+        op3:"D) IV, V, VI",
         correcta:"2"
     },
     {
         id:91,
-        pregunta:"Â¿Cómo se llama la etapa económica que comprende desde el gobierno de Miguel de la Madrid hasta Carlos Salinas de Gortari?",
+        pregunta:"¿Cómo se llama la etapa económica que comprende desde el gobierno de Miguel de la Madrid hasta Carlos Salinas de Gortari?",
         op0:"A) Neoliberalismo",
         op1:"B) Desarrollo estabilizador",
         op2:"C) Desarrollo compartido",
@@ -1091,7 +1091,7 @@ const bd_juego_hm = [
     },
     {
         id:93,
-        pregunta:"Â¿Qué caracterí­sticas tuvo la Constitución de 1857?",
+        pregunta:"¿Qué caracterí­sticas tuvo la Constitución de 1857?",
         op0:"A) Conservador",
         op1:"B) Moderado",
         op2:"C) Liberal",
@@ -1106,7 +1106,7 @@ const bd_juego_hm = [
         op2:"C) 1B, 2A, 3D, 4C",
         op3:"D) 1B, 2A, 3D, 4C",
         correcta:"1",
-        img:"etapa.png"
+        img:"img/etapa.png"
     },
     {
         id:95,

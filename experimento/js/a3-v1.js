@@ -1,7 +1,7 @@
 const bd_juego = [
     {
         id:0,
-        pregunta:"Elige la función de la lengua que predomina en el siguiente ejemplo: 'Luisa, Â¿puedes limpiar la mesa y lavar los trastes por favor?'",
+        pregunta:"Elige la función de la lengua que predomina en el siguiente ejemplo: 'Luisa, ¿puedes limpiar la mesa y lavar los trastes por favor?'",
         op0:"Metalingüí­stica.",
         op1:"Apelativa.",
         op2:"Referencial.",
@@ -19,7 +19,7 @@ const bd_juego = [
     },
     {
         id:2,
-        pregunta:"Â¿Qué modo discursivo predomina en el siguiente párrafo?: 'El alcoholismo es una enfermedad progresiva y crónica, que presenta sí­ntomas que van desde el malestar hasta el dolor intenso. Depende de varios factores, principalmente de la predisposición genética y de la influencia del medio ambiente familiar y social. Pese a que afecta todo el cuerpo y provoca una variedad de problemas médicos, los principales sí­ntomas se manifiestan en el sistema nervioso. A través de éste, en especial del cerebro, la adicción produce diversos trastornos en el pensamiento, las emociones y la conducta del enfermo.'",
+        pregunta:"¿Qué modo discursivo predomina en el siguiente párrafo?: 'El alcoholismo es una enfermedad progresiva y crónica, que presenta sí­ntomas que van desde el malestar hasta el dolor intenso. Depende de varios factores, principalmente de la predisposición genética y de la influencia del medio ambiente familiar y social. Pese a que afecta todo el cuerpo y provoca una variedad de problemas médicos, los principales sí­ntomas se manifiestan en el sistema nervioso. A través de éste, en especial del cerebro, la adicción produce diversos trastornos en el pensamiento, las emociones y la conducta del enfermo.'",
         op0:"Instrucción.",
         op1:"Descripción.",
         op2:"Enumeración.",
@@ -28,7 +28,7 @@ const bd_juego = [
     },
     {
         id:3,
-        pregunta:"Â¿Qué modo discursivo predomina en el siguiente ejemplo?: 'El libro comprende tres capí­tulos, con cinco subtemas cada uno. Sin embargo, no tiene consistencia. Esto se corrobora, en primer lugar, porque carece de un apartado de conclusiones. En segundo lugar, no cita las fuentes bibliográficas en las que se apoya. Esto hace que el texto sea de poco fiar.'",
+        pregunta:"¿Qué modo discursivo predomina en el siguiente ejemplo?: 'El libro comprende tres capí­tulos, con cinco subtemas cada uno. Sin embargo, no tiene consistencia. Esto se corrobora, en primer lugar, porque carece de un apartado de conclusiones. En segundo lugar, no cita las fuentes bibliográficas en las que se apoya. Esto hace que el texto sea de poco fiar.'",
         op0:"Enumeración.",
         op1:"Descripción.",
         op2:"Argumentación.",

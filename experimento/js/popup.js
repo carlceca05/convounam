@@ -5,7 +5,7 @@ const close = document.querySelector(".close");
 window.onload = function () {
   setTimeout(() => {
     popup.style.display = "block";
-  }, 40000);
+  }, 5000);
    h = 0;
    m = 0;
    s = 0;
