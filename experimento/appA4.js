@@ -1311,7 +1311,7 @@ window.onload = () => {
  function write() {
     let ht, mt, st, mlst;
     mls++;
-    if (mls > 99) {
+    if (mls > 59) {
        s++;
        mls = 0;
     }
@@ -1334,11 +1334,11 @@ window.onload = () => {
     mt = ('0' + m).slice(-2);
     ht = ('0' + h).slice(-2);
  
-    time.innerHTML = `${ht}:${mt}:${st}.${mlst}`;
+    time.innerHTML = `${ht}:${mt}:${st}`;
  };
  function reset() {
     clearInterval(timeStarted);
-    time.innerHTML = "03:00:00.00"
+    time.innerHTML = "03:00:00"
     h = 3;
     m = 0;
     s = 0;
