@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "^5.0.0-beta3"
+    "bootstrap": "^5.3.1"
   },
-  "devDependencies": {},
   "scripts": {
     "build": "purgecss --css sass/custom.css --content index.html aula_virtual.html cursoenlinea.html guias.html politica_privacidad.html sesionesinformativas.html blog.html convocatoriaunam2021.html resultadosunam2021.html --output sass/reducido.css"
   },
