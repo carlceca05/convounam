@@ -478,10 +478,6 @@
   transition: transform 2s ease;
 }
 
-#carousel .carousel-item .caption {
-  background: rgba(189, 141, 36, 0.85);
-}
-
 #carousel .carousel-item .caption2 {
   background: rgba(0, 0, 0, 0.5);
 }
