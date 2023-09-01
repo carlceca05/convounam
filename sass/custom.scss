@@ -453,6 +453,13 @@ div::-webkit-scrollbar {
     min-width: 33%;
     transition: 0.5s;
 }
+
+.importante {
+    background-color: #BD8D24;
+    padding: 12px 20px 10px 20px;
+    color: white;
+}
+
 @media (max-width: 768px) {
     .hola .product {
         min-width: 99%;
@@ -466,6 +473,11 @@ div::-webkit-scrollbar {
     -webkit-box-shadow: 0px 5px 0px 0px rgba(189,141,36,1);
     -moz-box-shadow: 0px 5px 0px 0px rgba(189,141,36,1);
     box-shadow: 0px 5px 0px 0px rgba(189,141,36,1);
+}
+.migaja{
+    position:absolute;
+    top: 10px;
+    right: 15px;
 }
 
 $font-weight-normal:500;

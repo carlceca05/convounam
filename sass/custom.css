@@ -504,6 +504,12 @@ div::-webkit-scrollbar {
   transition: 0.5s;
 }
 
+.importante {
+  background-color: #BD8D24;
+  padding: 12px 20px 10px 20px;
+  color: white;
+}
+
 @media (max-width: 768px) {
   .hola .product {
     min-width: 99%;
@@ -515,6 +521,12 @@ div::-webkit-scrollbar {
 
 .card-enlace:hover {
   box-shadow: 0px 5px 0px 0px rgb(189, 141, 36);
+}
+
+.migaja {
+  position: absolute;
+  top: 10px;
+  right: 15px;
 }
 
 /*!
