@@ -479,13 +479,16 @@ div::-webkit-scrollbar {
     top: 10px;
     right: 15px;
 }
+.bg-pink{
+    background-color: #d63384;
+}
 
 $font-weight-normal:500;
 $headings-font-weight: 700;
 $primary:#BD8D24;
-$success:#808080;
 $secondary:#07092F;
 $font-family-sans-serif: 'Montserrat', sans-serif;
+
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
